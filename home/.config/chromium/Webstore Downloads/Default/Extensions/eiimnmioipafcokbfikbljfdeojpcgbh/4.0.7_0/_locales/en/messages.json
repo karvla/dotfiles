@@ -1,0 +1,991 @@
+{
+   "aboutPageChromeRateHeader": {
+      "message": "Like us? Let The World Know."
+   },
+   "aboutPageChromeRateText": {
+      "message": "If you find Block Site useful, please rate it in the Chrome Webstore. We would highly appreciate it."
+   },
+   "aboutPageCreateBlockListHeader": {
+      "message": "Create Block Lists"
+   },
+   "aboutPageCreateBlockListText": {
+      "message": "Add the websites or pages you want to block to your Site List and get automatically redirected to safer, more positive sites. You can also create a list of friendly sites, and switch from blocking specific sites to only allowing certain sites to work."
+   },
+   "aboutPageIcognitoHeader": {
+      "message": "Incognito mode"
+   },
+   "aboutPageIcognitoText": {
+      "message": "All the Block Site functionality can also work in the incognito mode, you just need to allow it. Follow these instructions to see how it is done:"
+   },
+   "aboutPageKidsSafeHeader": {
+      "message": "Keep Your Kids’ Internet Safe"
+   },
+   "aboutPageKidsSafeText": {
+      "message": "Activate Adult Block via the extension menu to block all adult sites in a single click. Highly recommended for parents with young children."
+   },
+   "aboutPageOtherFuncHeader": {
+      "message": "Other functionality"
+   },
+   "aboutPageOtherFuncText": {
+      "message": "You can switch between Blacklist and Whitelist. Choose if you want to show the \"Disable Block Site\" item in the context menu. Allow sending anonymous statistics, which we use to improve the Block Site functionality, all the stats are completely anonymous, don't worry. Allow notifications for new features so we can notify you for new functionality we have added. Enjoy the extension and don't forget to rate it in the Firefox Addons store:"
+   },
+   "aboutPagePrivacyPolicy": {
+      "message": "Privacy Policy"
+   },
+   "aboutPageProductivity": {
+      "message": "Block Site enables you to stay focused and improve your productivity. You can easily block any distracting or harmful website. No willpower necessary."
+   },
+   "aboutPageRigtClickMenuHeader": {
+      "message": "Right Click Menu"
+   },
+   "aboutPageRigtClickMenuText": {
+      "message": "Right click anywhere on any website to open the quick access menu. Block sites in seconds to avoid procrastination and stay on target."
+   },
+   "aboutPageSetUpPassHeader": {
+      "message": "Set Up Password"
+   },
+   "aboutPageSetUpPassText": {
+      "message": "Set Up a password in the Settings page to limit the access to Block Site Options, or to enable the option to access blocked sites with a password."
+   },
+   "aboutPageTerms": {
+      "message": "Terms of Use"
+   },
+   "aboutPageTimeBlockHeader": {
+      "message": "Block For Specific Times"
+   },
+   "aboutPageTimeBlockText": {
+      "message": "Choose days and intervals in which you want Block Site to be active. Set up custom blocks based on your work schedule (for example: 09:00 - 17:00), so you won’t procrastinate during the day, when at work or at school."
+   },
+   "aboutPageTitle": {
+      "message": "About Block Site"
+   },
+   "addInterval": {
+      "message": "Add interval"
+   },
+   "addSiteOnboarding": {
+      "message": "Start adding sites you want to block to your list."
+   },
+   "adultContent": {
+      "message": "Adult Content"
+   },
+   "adultSwitcherTitle": {
+      "message": "Block all adult sites"
+   },
+   "allSitesBlocked": {
+      "message": "All sites in your Work Mode list are blocked"
+   },
+   "allSitesUnblockedMsg": {
+      "message": "All sites in your Work Mode list are unblocked"
+   },
+   "androidQuestionHeader": {
+      "message": "Enjoying BlockSite?"
+   },
+   "androidTrytext": {
+      "message": "Try our Android app"
+   },
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Stay focused and improve productivity. Easily block any distracting or harmful website. Stop procrastination once and for all!"
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Block Site - Website Blocker for Chrome™"
+   },
+   "appShortName": {
+      "description": "The short title of the application",
+      "message": "Block Site"
+   },
+   "blockAdultText": {
+      "message": "Block Adult Sites"
+   },
+   "blockByWordBlockedPageMsg": {
+      "message": "It looks like you blocked the word \"%blocked_word%\". Let’s keep it that way."
+   },
+   "blockByWordBlockedPageTitle": {
+      "message": "Uh Oh!"
+   },
+   "blockSitePageEveryDayLabel": {
+      "message": "Everyday"
+   },
+   "blockSitePageSubtitle": {
+      "message": "Block sites permanently or by schedule"
+   },
+   "blockSitePageTitle": {
+      "message": "Block Sites"
+   },
+   "blockedMessage1": {
+      "message": "You put %domain% in your Block Sites list. It’s probably there for a reason."
+   },
+   "blockedMessage2": {
+      "message": "You blocked %domain% so you can get stuff done. Now get back to work."
+   },
+   "blockedMessage3": {
+      "message": "Whew, all better now. Go back to what you were doing."
+   },
+   "blockedMessage4": {
+      "message": "%domain% has been blocked. Add more distracting sites to become even more productive."
+   },
+   "blockedMoreSites": {
+      "message": "Block More Distracting Sites"
+   },
+   "blockedOptionsEnterPassText": {
+      "message": "Please enter your password to access the BlockSite options page"
+   },
+   "blockedOptionsTitle": {
+      "message": "BlockSite Options Locked"
+   },
+   "blockedOptsIncorrectPassTooltip": {
+      "message": "Oops! That's not it. Please try again."
+   },
+   "blockedWordTitle": {
+      "message": "Blocked Words"
+   },
+   "blocksiteLockedLabel": {
+      "message": "BlockSite is Locked"
+   },
+   "blocksiteLockedMessage": {
+      "message": "Enter your password to access extension settings"
+   },
+   "blocksiteOffMessage": {
+      "message": "Block Site is currently off"
+   },
+   "breakIsOver": {
+      "message": "Break time is over."
+   },
+   "breakString": {
+      "message": "$BRAKE_TIME$ break",
+      "placeholders": {
+         "brake_time": {
+            "content": "$1",
+            "example": "05:00"
+         }
+      }
+   },
+   "breakTimeLeftText": {
+      "message": "%BREAK_TIME_LEFT% minutes until break time",
+      "placeholders": {
+         "break_time_left": {
+            "content": "$1",
+            "example": "25"
+         }
+      }
+   },
+   "buildBlockList": {
+      "message": "Build your block list"
+   },
+   "buildListLabel": {
+      "message": "Build your list!"
+   },
+   "buildListMessage": {
+      "message": "Enter sites you wish to avoid while you’re working."
+   },
+   "cantBlockRedirectSiteMsg": {
+      "message": "Can't block a site that is set to redirect"
+   },
+   "cantRedirectMessage1": {
+      "message": "Can`t allow a site that is set as redirect"
+   },
+   "cantRedirectMessage2": {
+      "message": "Can`t block a site that is set as redirect"
+   },
+   "changePass": {
+      "message": "Change Password"
+   },
+   "context_add_currentPage": {
+      "message": "Block this site"
+   },
+   "context_add_currentPage_whitelistOn": {
+      "message": "Allow this site"
+   },
+   "context_add_currentPage_workmode": {
+      "message": "Add site to work mode list"
+   },
+   "context_add_currentPage_workmode_whitelistOn": {
+      "message": "Allow this site for work mode"
+   },
+   "context_add_link": {
+      "message": "Block this link"
+   },
+   "context_add_link_whitelistOn": {
+      "message": "Allow this link"
+   },
+   "context_add_link_workmode": {
+      "message": "Add link address to work mode list"
+   },
+   "context_add_link_workmode_whitelistOn": {
+      "message": "Allow this link for work mode"
+   },
+   "continue": {
+      "message": "Continue"
+   },
+   "continueMsg": {
+      "message": "Continue"
+   },
+   "dayFriday": {
+      "message": "Friday"
+   },
+   "dayFridayLabel": {
+      "message": "Fri"
+   },
+   "dayFridayLetter": {
+      "message": "F"
+   },
+   "dayMonday": {
+      "message": "Monday"
+   },
+   "dayMondayLabel": {
+      "message": "Mon"
+   },
+   "dayMondayLetter": {
+      "message": "M"
+   },
+   "dayPickerClickToDeactivate": {
+      "message": "(Click a day to deactivate)"
+   },
+   "dayPickerSelectedDays": {
+      "message": "SELECTED DAYS"
+   },
+   "daySaturday": {
+      "message": "Saturday"
+   },
+   "daySaturdayLabel": {
+      "message": "Sat"
+   },
+   "daySaturdayLetter": {
+      "message": "S"
+   },
+   "daySunday": {
+      "message": "Sunday"
+   },
+   "daySundayLabel": {
+      "message": "Sun"
+   },
+   "daySundayLetter": {
+      "message": "S"
+   },
+   "dayThursday": {
+      "message": "Thursday"
+   },
+   "dayThursdayLabel": {
+      "message": "Thu"
+   },
+   "dayThursdayLetter": {
+      "message": "T"
+   },
+   "dayTuesday": {
+      "message": "Tuesday"
+   },
+   "dayTuesdayLabel": {
+      "message": "Tue"
+   },
+   "dayTuesdayLetter": {
+      "message": "T"
+   },
+   "dayWednesday": {
+      "message": "Wednesday"
+   },
+   "dayWednesdayLabel": {
+      "message": "Wed"
+   },
+   "dayWednesdayLetter": {
+      "message": "W"
+   },
+   "downloadAndroidText": {
+      "description": "The part between ## and %% will wrapped by html tags, please don't remove this symbols",
+      "message": "#Stay productive# %across devices%"
+   },
+   "downloadText": {
+      "message": "Download"
+   },
+   "editBlockSitesList": {
+      "message": "Edit block sites list"
+   },
+   "editWorkListMsg": {
+      "message": "You can always edit the list later in Work Mode Options"
+   },
+   "editWorkModeList": {
+      "message": "Edit work mode list"
+   },
+   "editYourListBtn": {
+      "message": "Edit your list"
+   },
+   "emailPlaceholder": {
+      "message": "Enter your email"
+   },
+   "enableIncognitoButtonText": {
+      "message": "Enable in Incognito Mode"
+   },
+   "end": {
+      "message": "End"
+   },
+   "endBreak": {
+      "message": "End Break"
+   },
+   "enterPassMsg": {
+      "message": "Enter password to gain access"
+   },
+   "enterPassPlaceholder": {
+      "message": "Enter your password"
+   },
+   "enterWordInputPlaceholder": {
+      "message": "Enter a word or phrase"
+   },
+   "errorCantRedirectToBlocked": {
+      "message": "Can't redirect to a blocked site"
+   },
+   "errorEmptyList": {
+      "message": "Your list is empty! Nothing to export."
+   },
+   "errorIncorrectUrl": {
+      "message": "Incorrect URL"
+   },
+   "exportList": {
+      "message": "Export list"
+   },
+   "exportSuccess": {
+      "message": "Your list was successfully exported"
+   },
+   "feedbackFormBody": {
+      "message": "Message (optional)"
+   },
+   "feedbackFormSubject": {
+      "message": "Subject"
+   },
+   "fogotPassModalMainText": {
+      "message": "Your password has been sent to"
+   },
+   "fogotPassModalOkBtn": {
+      "message": "Ok"
+   },
+   "fogotPassModalSentTitle": {
+      "message": "Password Sent"
+   },
+   "footerDownloadAndroidText": {
+      "message": "Download for Android"
+   },
+   "footerHelpText": {
+      "message": "Help us improve"
+   },
+   "footerRateText": {
+      "message": "Rate us"
+   },
+   "forgotPasswordText": {
+      "message": "Forgot Password?"
+   },
+   "getBackToWorkTitle": {
+      "message": "Click continue and get back to work!"
+   },
+   "goBack": {
+      "message": "Go Back"
+   },
+   "goBackToWork": {
+      "message": "Go Back to Work"
+   },
+   "gotIt": {
+      "message": "Got it"
+   },
+   "haveAppNow": {
+      "message": "I have the app now"
+   },
+   "howtoEnableInIncognitoStep1": {
+      "message": "Go to chrome://extensions"
+   },
+   "howtoEnableInIncognitoStep2": {
+      "message": "Find Block Site"
+   },
+   "howtoEnableInIncognitoStep3": {
+      "message": "Check 'Allow in Incognito'"
+   },
+   "howtoEnableInIncognitoText": {
+      "message": "To enable Block Site in Chrome’s Incognito Mode, follow these steps."
+   },
+   "howtoEnableInIncognitoTitle": {
+      "message": "How to enable in Incognito"
+   },
+   "importList": {
+      "message": "Import list"
+   },
+   "importListSuccessMsg": {
+      "message": "Your list was successfully imported"
+   },
+   "incorrectFileStructMsg": {
+      "message": "Incorrect file structure. Please try to export your current list to see the required csv format"
+   },
+   "incorrectUrlMsg": {
+      "message": "Incorrect URL"
+   },
+   "inctoduceGetStarted": {
+      "message": "Get Started"
+   },
+   "inctoduceMessage": {
+      "message": "Get in the zone and block distracting sites while your Work Mode timer is running."
+   },
+   "inctoduceTitle": {
+      "message": "Start being productive!"
+   },
+   "invalidPassMsg": {
+      "message": "Invalid Password. Try again."
+   },
+   "letterMessageText": {
+      "message": "You will receive an email letting you know that Account Protection is ON"
+   },
+   "lockExtEmailLabel": {
+      "message": "EMAIL"
+   },
+   "lockExtEmailLabelVerify": {
+      "message": "Verification Required"
+   },
+   "lockExtNewPopupBtnText": {
+      "message": "Check it out"
+   },
+   "lockExtNewPopupText1": {
+      "message": "Protect your settings page with a password"
+   },
+   "lockExtNewPopupText2": {
+      "message": "Allow access to blocked pages with a password"
+   },
+   "lockExtNewPopupText3": {
+      "message": "Get notified when someone removes BlockSite"
+   },
+   "lockExtNewPopupText4": {
+      "message": "Easily retrieve your password"
+   },
+   "lockExtNewPopupTitleNew": {
+      "message": "New:"
+   },
+   "lockExtNewPopupTitleProtectionText": {
+      "message": "Account Protection"
+   },
+   "lockExtPassChangedNotificationText": {
+      "message": "Password settings changed successfully"
+   },
+   "lockExtPassLabel": {
+      "message": "PASSWORD"
+   },
+   "lockExtPopupResetPassRemovedText": {
+      "message": "If you do not reset your password, it will be removed."
+   },
+   "lockExtPopupRestPassBtnText": {
+      "message": "Reset Password"
+   },
+   "lockExtPopupRestPassText": {
+      "message": "To keep your account protected, please reset your password and provide a recovery email."
+   },
+   "lockExtPopupRestPassTitle": {
+      "message": "Reset Your Password\u003Cbr>For Better Security"
+   },
+   "lockExtProtectSettings": {
+      "message": "Protect your BlockSite Options and the\u003Cbr> Chrome Extension page with password"
+   },
+   "lockExtRecieveEmail": {
+      "message": "Get notified via email when BlockSite is uninstalled"
+   },
+   "lockExtRequirePass": {
+      "message": "Require password to access blocked sites"
+   },
+   "lockExtSavedNotificationText": {
+      "message": "Protection settings saved"
+   },
+   "lockExtSetUpPassText": {
+      "message": "Set up email and password to activate"
+   },
+   "lockExtSettingsNotSavedAddBtn": {
+      "message": "Add Email and Password"
+   },
+   "lockExtSettingsNotSavedLeave": {
+      "message": "Leave without saving"
+   },
+   "lockExtSettingsNotSavedText": {
+      "message": "Please save your email and password to activate the extra protection features."
+   },
+   "lockExtSettingsNotSavedTitle": {
+      "message": "Settings Not Saved"
+   },
+   "lockExtUpdateEmailAndPass": {
+      "message": "Update Email and Password"
+   },
+   "lockExtUpdatePassText": {
+      "message": "Update your email and password to activate"
+   },
+   "lockExtensionHeaderTitle": {
+      "message": "Account Protection Preferences"
+   },
+   "lockExtsPageTitle1": {
+      "message": "Chrome Extensions Page - Protected"
+   },
+   "lockExtsPageTitle2": {
+      "message": "Please enter your password for access"
+   },
+   "lockedPopupPassPlaceholder": {
+      "message": "Enter password to unlock"
+   },
+   "mandatoryPopupBtnAgreeText": {
+      "message": "Agree"
+   },
+   "mandatoryPopupBtnDisagreeText": {
+      "message": "Disagree"
+   },
+   "mandatoryPopupFooterText": {
+      "message": "If you click ‘Disagree’ you can still use BlockSite, however the adult blocking feature will not be available."
+   },
+   "mandatoryPopupText": {
+      "description": "#Privacy Policy.# part of text will be clickable link, don't remove # symbols",
+      "message": "For BlockSite to be able to detect and block pages with adult content, we need your permission to access information on the sites you visit. Please click ‘Agree’ to enable this access and the use of this information as described in our #Privacy Policy#."
+   },
+   "mandatoryPopupTitle": {
+      "message": "Please make a selection in \u003Cbr> order to proceed to BlockSite."
+   },
+   "menuAbout": {
+      "message": "About"
+   },
+   "menuAdultBlock": {
+      "message": "Adult Block"
+   },
+   "menuBlockByWords": {
+      "message": "Block by Words"
+   },
+   "menuBlockSites": {
+      "message": "Block Sites"
+   },
+   "menuLockExtension": {
+      "message": "Account Protection"
+   },
+   "menuSettings": {
+      "message": "Settings"
+   },
+   "menuWorkMode": {
+      "message": "Work Mode"
+   },
+   "mergeBtnText": {
+      "message": "Merge"
+   },
+   "messageSent": {
+      "message": "Message sent"
+   },
+   "modalPrivacyText": {
+      "description": "#Privacy Policy.# text will be clickable link, don't remove # symbols, just ignore it",
+      "message": "You can't turn on adult blocking mode unless you agree to give us access to your visited URLs, IP address, operating system, and browser information, for use as described in our #Privacy Policy#."
+   },
+   "modalPrivacyTitle": {
+      "message": "Oops!"
+   },
+   "motivationalText1": {
+      "message": "Nice try..."
+   },
+   "motivationalText10": {
+      "message": "Intercepted!"
+   },
+   "motivationalText2": {
+      "message": "No way, Jose."
+   },
+   "motivationalText3": {
+      "message": "Forget about it."
+   },
+   "motivationalText4": {
+      "message": "Are you serious?"
+   },
+   "motivationalText5": {
+      "message": "What do you think you’re doing?"
+   },
+   "motivationalText6": {
+      "message": "Stop horsing around!"
+   },
+   "motivationalText7": {
+      "message": "Puppies. Weird Brown Moles. Justin Bieber."
+   },
+   "motivationalText8": {
+      "message": "Cockroaches. Severed Limbs. John Goodman."
+   },
+   "motivationalText9": {
+      "message": "Grandma. Kobe Bryant. Surgical Procedures."
+   },
+   "no": {
+      "message": "No"
+   },
+   "noAdultContent": {
+      "message": "No Adult Content"
+   },
+   "notAvalible": {
+      "message": "Not available on this page"
+   },
+   "notSyncedText": {
+      "message": "Not Synced with App"
+   },
+   "notValidShedule": {
+      "message": "Your schedule is not valid"
+   },
+   "ok": {
+      "message": "OK"
+   },
+   "overrideBtnText": {
+      "message": "Override"
+   },
+   "overrideOrMergeConfirmationTitle": {
+      "message": "Would you like to merge or override your current list?"
+   },
+   "passIsSet": {
+      "message": "PASSWORD IS SET"
+   },
+   "passLengthTooltip": {
+      "message": "The password should be at least 5 characters"
+   },
+   "passPlaceholder": {
+      "message": "Minimum 5 characters"
+   },
+   "passSettedMsg": {
+      "message": "Your password has been set"
+   },
+   "pauseBtnText": {
+      "message": "Pause"
+   },
+   "pauseFooterButton1": {
+      "message": "Pause"
+   },
+   "pauseFooterButton2": {
+      "message": "Continue working"
+   },
+   "pauseHeaderMessage": {
+      "message": "Are you sure you want to stop working and \u003Cbr> pause right now?"
+   },
+   "pauseHeaderTitle": {
+      "message": "Pausing is for the weak!"
+   },
+   "pauseTextTitle": {
+      "message": "Now is your time to shine!"
+   },
+   "privacyPolicyText1": {
+      "message": "To be consistent with data protection laws, we’ve updated our"
+   },
+   "privacyPolicyText2": {
+      "message": "Privacy Policy"
+   },
+   "privacyPolicyText3": {
+      "message": "Please read both as the changes affect your legal rights."
+   },
+   "privacyPolicyTitle": {
+      "message": "Important Update"
+   },
+   "privacySettingsSubtitle": {
+      "description": "#Privacy Policy# text will be clickable link, don't remove # symbols, just ignore it",
+      "message": "Allows BlockSite to access your visited URLs, IP address, operating system, and browser information, for use as described in our #Privacy Policy#."
+   },
+   "privacySettingsTitle": {
+      "message": "Enable \"Block Adult Sites\" feature"
+   },
+   "redirectBlockedSites": {
+      "message": "Redirect your blocked sites"
+   },
+   "redirectBlockedWord": {
+      "message": "Redirect your blocked word"
+   },
+   "redirectButtonText": {
+      "message": "Redirect"
+   },
+   "redirectLabelText1": {
+      "message": "Click to set redirection website"
+   },
+   "redirectLabelText2": {
+      "message": "Redirect to $URL$",
+      "placeholders": {
+         "url": {
+            "content": "$1",
+            "example": "https://example.com"
+         }
+      }
+   },
+   "redirectTutorialBtnText": {
+      "message": "Ok got it"
+   },
+   "redirectTutorialMainText": {
+      "message": "You can redirect your blocked sites to any website you like. Click redirect above to change this now."
+   },
+   "redirectTutorialTitle": {
+      "message": "FYI"
+   },
+   "remove": {
+      "message": "Remove"
+   },
+   "reportDescriptionText1": {
+      "message": "Oops!"
+   },
+   "reportDescriptionText2": {
+      "message": "Send us the web address of the adult site we missed and we'll take care of it as soon as possible. In the meantime, you can add the site to your block list."
+   },
+   "reportProblemText": {
+      "message": "Report a problem"
+   },
+   "reportSendBtnText": {
+      "message": "Send Message"
+   },
+   "resetTimerMsg": {
+      "message": "Reset timer"
+   },
+   "reviewCallToActionText": {
+      "message": "Show us some love."
+   },
+   "reviewQuestion": {
+      "message": "Happy with BlockSite?"
+   },
+   "saveBtnText": {
+      "message": "Save"
+   },
+   "searchbarPlaceholder": {
+      "message": "Enter a web address (ex: facebook.com)"
+   },
+   "setPass": {
+      "message": "Set Password"
+   },
+   "setShedule": {
+      "message": "Set Schedule"
+   },
+   "setTimes": {
+      "message": "SET TIMES"
+   },
+   "setUpBlockingShedule": {
+      "message": "Set up blocking schedule"
+   },
+   "settingsAllowStat": {
+      "message": "Allow sending anonymous statistics to Block Site"
+   },
+   "settingsEnableBlockSite": {
+      "message": "Enable Block Site option in context menu (aka right click menu)"
+   },
+   "settingsEnablePassAccess": {
+      "message": "Enable password access to blocked pages"
+   },
+   "settingsRequerePassAccess": {
+      "message": "Require password to access Block Site menu"
+   },
+   "settingsSaved": {
+      "message": "Your settings have been saved"
+   },
+   "settingsSetPass": {
+      "message": "SET PASSWORD BELOW"
+   },
+   "settingsShowMotivational": {
+      "message": "Show motivational images on blocked pages"
+   },
+   "sheduleButtonText": {
+      "message": "Schedule"
+   },
+   "sheduleNegativeDiffConfirmationText": {
+      "message": "Schedule start time is later than finish time. This means it will start on one day and finish on the next. Are you sure?"
+   },
+   "showSyncBtn": {
+      "message": "Show 'Sync with Mobile' Button"
+   },
+   "siteAddedMsg": {
+      "message": "Site Added"
+   },
+   "siteIsBlocked": {
+      "message": "This site is currently blocked"
+   },
+   "start": {
+      "message": "Start"
+   },
+   "startAnotherSeesionQuestion": {
+      "message": "Start another Work Mode Session?"
+   },
+   "startWorking": {
+      "message": "Start Working"
+   },
+   "suggestedWebsitesText1": {
+      "message": "SUGGESTED WEBSITES"
+   },
+   "suggestedWebsitesText2": {
+      "message": "WEBSITES"
+   },
+   "syncAvaliableInChrome": {
+      "message": "Currently Available on Chrome"
+   },
+   "syncButtonHidedMsg": {
+      "message": "Sync button has been removed. You can bring it back in Settings."
+   },
+   "syncComingSoon": {
+      "message": "Sync Coming Soon"
+   },
+   "syncDeviceDontHaveApp": {
+      "message": "I don’t have the app"
+   },
+   "syncDeviceText": {
+      "description": "#mobile_icon# will be replaced to mobile icon image, do not change this placeholder",
+      "message": "On the BlockSite app, tap on #mobile_icon# Go to Settings, then Sync with Desktop"
+   },
+   "syncDeviceText1": {
+      "message": "1. Open BlockSite on your phone"
+   },
+   "syncDeviceText2": {
+      "message": "2. Tap Menu and select Sync with Desktop"
+   },
+   "syncDeviceText3": {
+      "message": "3. Point your phone to the screen to capture the code"
+   },
+   "syncDeviceTitle": {
+      "message": "Sync your Android device"
+   },
+   "syncGoBack": {
+      "message": "Go Back"
+   },
+   "syncModalAlreadyHaveApp": {
+      "message": "I have the app"
+   },
+   "syncModalCodeText": {
+      "message": "Go to \"Sync with Desktop\" on the Block Site app and enter code:"
+   },
+   "syncModalDoYouHaveBlocksiteForAndroid": {
+      "message": "Do you have BlockSite installed on your Android device?"
+   },
+   "syncModalGooglePlay": {
+      "message": "Google Play"
+   },
+   "syncModalHaveAppMainTitle": {
+      "message": "Sync BlockSite"
+   },
+   "syncModalHaveAppSync": {
+      "message": "You can now sync BlockSite to Android"
+   },
+   "syncModalIDontHaveDevice": {
+      "message": "I don't have an Android device"
+   },
+   "syncModalQRText": {
+      "message": "QR Code"
+   },
+   "syncModalText1": {
+      "message": "Download BlockSite for Android and then click 'Continue'"
+   },
+   "syncModalTitle": {
+      "message": "Download BlockSite for Android"
+   },
+   "syncNotificationError": {
+      "message": "Sync is only available on Android. The sync button has been removed but can be added again in settings."
+   },
+   "syncNotificationSuccess": {
+      "message": "BlockSite Extension is synced with mobile"
+   },
+   "syncedText": {
+      "message": "Synced with App"
+   },
+   "tableTitleText1": {
+      "message": "ALLOWED SITES"
+   },
+   "tableTitleText2": {
+      "message": "BLOCKED SITES"
+   },
+   "timeForBreak": {
+      "message": "It’s time for a break!"
+   },
+   "ulrAlreadyExistMsg": {
+      "message": "URL already exists"
+   },
+   "verifyEmailModalText": {
+      "description": "The part between ** will bold text, please don't remove * symbols",
+      "message": "We've just sent a confirmation email to %USER_EMAIL%. *Please click the link to verify your account and enable account protection.*"
+   },
+   "verifyEmailModalTitle": {
+      "message": "Verification Required"
+   },
+   "verifyEmailProtectionNotEnabledText1": {
+      "message": "Account protection is not yet enabled."
+   },
+   "verifyEmailProtectionNotEnabledText2": {
+      "message": "To enable, please check your email for the verification link."
+   },
+   "verifyEmailProtectionNotEnabledText3": {
+      "description": "The part between ## will clickable link, please don't remove # symbols",
+      "message": "If you didn't receive the email, #please click here to resend.#"
+   },
+   "verifyEmailSuccessMsg": {
+      "message": "Thanks! Your email has been verified"
+   },
+   "verifyRecieveEmailText": {
+      "message": "BlockSite will send you an email with a link to verify your email address.\u003Cbr>Your email address will only be used for the purpose of Account Protection."
+   },
+   "webAdressPlaceholder": {
+      "message": "Web Address (ex: google.com)"
+   },
+   "welcomeAgreeBtn": {
+      "message": "Agree"
+   },
+   "welcomeConfirmDoNotEnable": {
+      "message": "Do Not Enable Feature"
+   },
+   "welcomeConfirmGoBack": {
+      "message": "Go Back"
+   },
+   "welcomeConfirmText": {
+      "message": "The adult site blocking feature requires us to have access to information on the sites you visit in order to detect and block adult sites automatically. Please note that we do not share this data with any third parties for the purposes of marketing or targeting individual users."
+   },
+   "welcomeConfirmTitle": {
+      "message": "Are you sure you don’t want to enable the adult site blocking feature?"
+   },
+   "welcomeDisagreeBtn": {
+      "message": "Disagree"
+   },
+   "welcomeInstallingTitle": {
+      "message": "Thank you for installing BlockSite"
+   },
+   "welcomeMainText": {
+      "description": "#Privacy Policy.# text will be clickable link, don't remove # symbols, just ignore it",
+      "message": "For BlockSite to be able to detect and block pages with adult content, we need your permission to access your visited URLs, IP address, operating system, and browser information. Please click ‘Agree’ to enable this access and the use of this information as described in our #Privacy Policy#."
+   },
+   "welcomePrivacyPolicy": {
+      "message": "Privacy Policy"
+   },
+   "welcomeToBlocksiteTitle": {
+      "message": "Welcome to BlockSite"
+   },
+   "welcomeUpdatingTitle": {
+      "message": "Thank you for updating BlockSite"
+   },
+   "whitelistBlockedPageMsg": {
+      "message": "This website isn't on your whitelist. Probably for good reason too."
+   },
+   "whitelistBlockedPageTitle": {
+      "message": "Nice Try, Kid."
+   },
+   "whitelistConfirmationText": {
+      "message": "All sites will be blocked except the ones in the list"
+   },
+   "whitelistConfirmationTitle": {
+      "message": "Are you sure?"
+   },
+   "whitelistMode": {
+      "message": "Whitelist mode"
+   },
+   "whitelistTooltip": {
+      "message": "Block all websites except the ones in your list"
+   },
+   "wordAddedMsg": {
+      "message": "Word Added"
+   },
+   "wordAlreadyExistMsg": {
+      "message": "Word already exists"
+   },
+   "wordBlockingHeaderSubtitle": {
+      "message": "Block URL`s which contain specific words"
+   },
+   "wordBlockingHeaderTitle": {
+      "message": "Block by Words"
+   },
+   "workListTitle": {
+      "message": "YOUR WORK MODE LIST"
+   },
+   "workModeSubtitle": {
+      "message": "Block time wasting sites while your Work Mode timer is running"
+   },
+   "workModeTimerLabel": {
+      "message": "Work Mode Timer"
+   },
+   "workModeTimerMessage": {
+      "message": "When active, sites in Work Mode list will be blocked"
+   },
+   "workTime": {
+      "message": "Work Time"
+   },
+   "workTimeOver": {
+      "message": "Work time is over."
+   },
+   "yes": {
+      "message": "Yes"
+   }
+}

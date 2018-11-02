@@ -1,3 +1,0 @@
-#!/bin/bash
-
-du --human-readable --dereference | sort -h -r | less

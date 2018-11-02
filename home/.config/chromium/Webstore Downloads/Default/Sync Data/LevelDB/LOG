@@ -1,0 +1,6 @@
+2018/11/01-15:58:54.505 18880 Reusing MANIFEST /home/karvla/.config/chromium/Default/Sync Data/LevelDB/MANIFEST-000001
+2018/11/01-15:58:54.506 18880 Recovering log #256
+2018/11/01-15:58:54.507 18880 Reusing old log /home/karvla/.config/chromium/Default/Sync Data/LevelDB/000256.log 
+2018/11/01-16:32:09.905 21026 Level-0 table #261: started
+2018/11/01-16:32:09.960 21026 Level-0 table #261: 1286053 bytes OK
+2018/11/01-16:32:09.963 21026 Delete type=0 #256

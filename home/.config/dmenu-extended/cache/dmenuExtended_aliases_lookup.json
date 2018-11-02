@@ -1,0 +1,770 @@
+[
+    [
+        "gedit", 
+        "gedit"
+    ], 
+    [
+        "Bluetooth Device", 
+        "blueman-sendto"
+    ], 
+    [
+        "Videostream for Google Chromecast\u2122", 
+        "chromium-browser --profile-directory=Default --app-id=cnciopoikihiagdjbjpnocolokfelagl"
+    ], 
+    [
+        "okular", 
+        "okular"
+    ], 
+    [
+        "Google Drive", 
+        "/opt/google/chrome/google-chrome --profile-directory=Default --app-id=apdfllckaahabafndbhieahigkjlhalf"
+    ], 
+    [
+        "YouTube", 
+        "/opt/google/chrome/google-chrome --profile-directory=Default --app-id=blpcfgokakmgnkcojhhkbfbldkacnbeo"
+    ], 
+    [
+        "Gmail", 
+        "/opt/google/chrome/google-chrome --profile-directory=Default --app-id=pjkljhegncpnkpknbcohdijeoejaedia"
+    ], 
+    [
+        "Docs", 
+        "/opt/google/chrome/google-chrome --profile-directory=Default --app-id=aohghmighlieiainnegkcijnfilokake"
+    ], 
+    [
+        "Spotify", 
+        "spotify"
+    ], 
+    [
+        "QuickTile", 
+        "quicktile --daemonize"
+    ], 
+    [
+        "Arduino IDE", 
+        "/home/karvla/Downloads/arduino-1.8.5/arduino"
+    ], 
+    [
+        "Anki", 
+        "anki"
+    ], 
+    [
+        "Mixxx", 
+        "sh -c \"pasuspender -- mixxx || mixxx\""
+    ], 
+    [
+        "Unruly", 
+        "sgt-unruly"
+    ], 
+    [
+        "NVIDIA X Server Settings", 
+        "nvidia-settings"
+    ], 
+    [
+        "Singles", 
+        "sgt-singles"
+    ], 
+    [
+        "Untangle", 
+        "sgt-untangle"
+    ], 
+    [
+        "KDE Connect Indicator", 
+        "kdeconnect-indicator"
+    ], 
+    [
+        "Cube", 
+        "sgt-cube"
+    ], 
+    [
+        "About Me", 
+        "mugshot"
+    ], 
+    [
+        "Deluge", 
+        "deluge-gtk"
+    ], 
+    [
+        "Task Manager", 
+        "xfce4-taskmanager"
+    ], 
+    [
+        "Loopy", 
+        "sgt-loopy"
+    ], 
+    [
+        "Run Program...", 
+        "xfce4-appfinder --collapsed"
+    ], 
+    [
+        "Flip", 
+        "sgt-flip"
+    ], 
+    [
+        "Black Box", 
+        "sgt-blackbox"
+    ], 
+    [
+        "Okular", 
+        "okular"
+    ], 
+    [
+        "Language Support", 
+        "gnome-language-selector"
+    ], 
+    [
+        "Document Viewer", 
+        "evince"
+    ], 
+    [
+        "Audacity", 
+        "audacity"
+    ], 
+    [
+        "Tracks", 
+        "sgt-tracks"
+    ], 
+    [
+        "Same Game", 
+        "sgt-samegame"
+    ], 
+    [
+        "MATE Calculator", 
+        "mate-calc"
+    ], 
+    [
+        "Flood", 
+        "sgt-flood"
+    ], 
+    [
+        "OpenJDK Java 8 Runtime", 
+        "cautious-launcher"
+    ], 
+    [
+        "Web Browser", 
+        "exo-open --launch WebBrowser"
+    ], 
+    [
+        "Inkscape", 
+        "inkscape"
+    ], 
+    [
+        "Guess", 
+        "sgt-guess"
+    ], 
+    [
+        "Additional Drivers", 
+        "software-properties-gtk --open-tab=4"
+    ], 
+    [
+        "Light Up", 
+        "sgt-lightup"
+    ], 
+    [
+        "Htop", 
+        "htop;"
+    ], 
+    [
+        "Filling", 
+        "sgt-filling"
+    ], 
+    [
+        "Orage Calendar", 
+        "orage"
+    ], 
+    [
+        "Keyboard", 
+        "xfce4-keyboard-settings"
+    ], 
+    [
+        "Slant", 
+        "sgt-slant"
+    ], 
+    [
+        "Atril Document Viewer", 
+        "atril"
+    ], 
+    [
+        "Onboard Settings", 
+        "onboard-settings"
+    ], 
+    [
+        "Xfburn", 
+        "xfburn"
+    ], 
+    [
+        "Towers", 
+        "sgt-towers"
+    ], 
+    [
+        "Ukuu Kernel Update Utility", 
+        "ukuu-gtk"
+    ], 
+    [
+        "Pearl", 
+        "sgt-pearl"
+    ], 
+    [
+        "Palisade", 
+        "sgt-palisade"
+    ], 
+    [
+        "KTelnetService", 
+        "ktelnetservice5"
+    ], 
+    [
+        "Pegs", 
+        "sgt-pegs"
+    ], 
+    [
+        "Application Finder", 
+        "xfce4-appfinder"
+    ], 
+    [
+        "Skype", 
+        "skypeforlinux"
+    ], 
+    [
+        "Range", 
+        "sgt-range"
+    ], 
+    [
+        "Appearance", 
+        "xfce4-appearance-settings"
+    ], 
+    [
+        "Inertia", 
+        "sgt-inertia"
+    ], 
+    [
+        "Character Map", 
+        "gucharmap"
+    ], 
+    [
+        "RawTherapee", 
+        "rawtherapee"
+    ], 
+    [
+        "Anthy Dictionary editor", 
+        "kasumi"
+    ], 
+    [
+        "Bridges", 
+        "sgt-bridges"
+    ], 
+    [
+        "Desktop ", 
+        "xfdesktop-settings"
+    ], 
+    [
+        "Mines", 
+        "gnome-mines"
+    ], 
+    [
+        "Undead", 
+        "sgt-undead"
+    ], 
+    [
+        "MIME Type Editor", 
+        "xfce4-mime-settings"
+    ], 
+    [
+        "OpenJDK Java 8 Policy Tool", 
+        "policytool"
+    ], 
+    [
+        "Galaxies", 
+        "sgt-galaxies"
+    ], 
+    [
+        "Terminator", 
+        "terminator"
+    ], 
+    [
+        "PDF-Shuffler", 
+        "pdfshuffler"
+    ], 
+    [
+        "Archive Manager", 
+        "file-roller"
+    ], 
+    [
+        "Phoronix Test Suite", 
+        "phoronix-test-suite interactive;"
+    ], 
+    [
+        "Chromium Web Browser", 
+        "chromium-browser"
+    ], 
+    [
+        "LRF Viewer", 
+        "lrfviewer"
+    ], 
+    [
+        "Solo", 
+        "sgt-solo"
+    ], 
+    [
+        "Create Launcher on the panel", 
+        "xfce4-panel --add=launcher"
+    ], 
+    [
+        "About Xfce", 
+        "xfce4-about"
+    ], 
+    [
+        "Notifications", 
+        "xfce4-notifyd-config"
+    ], 
+    [
+        "Keen", 
+        "sgt-keen"
+    ], 
+    [
+        "LibreOffice Writer", 
+        "libreoffice --writer"
+    ], 
+    [
+        "Bulk Rename", 
+        "/usr/lib/x86_64-linux-gnu/Thunar/ThunarBulkRename"
+    ], 
+    [
+        "Mouse and Touchpad", 
+        "xfce4-mouse-settings"
+    ], 
+    [
+        "Settings Manager", 
+        "xfce4-settings-manager"
+    ], 
+    [
+        "Panel", 
+        "xfce4-panel --preferences"
+    ], 
+    [
+        "LinSSID", 
+        "linssid"
+    ], 
+    [
+        "Orage preferences", 
+        "orage -p"
+    ], 
+    [
+        "Net", 
+        "sgt-net"
+    ], 
+    [
+        "UXTerm", 
+        "uxterm"
+    ], 
+    [
+        "Steam", 
+        "steam"
+    ], 
+    [
+        "Google Chrome", 
+        "google-chrome-stable"
+    ], 
+    [
+        "Session and Startup", 
+        "xfce4-session-settings"
+    ], 
+    [
+        "Python (v3.6)", 
+        "python3.6;"
+    ], 
+    [
+        "Unequal", 
+        "sgt-unequal"
+    ], 
+    [
+        "Log Out", 
+        "xfce4-session-logout"
+    ], 
+    [
+        "Bluetooth Manager", 
+        "blueman-manager"
+    ], 
+    [
+        "Netslide", 
+        "sgt-netslide"
+    ], 
+    [
+        "Input Method", 
+        "im-config"
+    ], 
+    [
+        "Xfce Panel Switch", 
+        "xfpanel-switch"
+    ], 
+    [
+        "i3", 
+        "i3"
+    ], 
+    [
+        "XTerm", 
+        "xterm"
+    ], 
+    [
+        "QDirStat", 
+        "qdirstat"
+    ], 
+    [
+        "Python (v2.7)", 
+        "python2.7;"
+    ], 
+    [
+        "Wireshark (GTK+)", 
+        "wireshark-gtk"
+    ], 
+    [
+        "View file", 
+        "gcr-viewer"
+    ], 
+    [
+        "GNU Image Manipulation Program", 
+        "gimp-2.99"
+    ], 
+    [
+        "Catfish File Search", 
+        "catfish"
+    ], 
+    [
+        "Terminal Emulator", 
+        "exo-open --launch TerminalEmulator"
+    ], 
+    [
+        "Removable Drives and Media", 
+        "thunar-volman-settings"
+    ], 
+    [
+        "Firefox Web Browser", 
+        "firefox"
+    ], 
+    [
+        "Sudoku", 
+        "gnome-sudoku"
+    ], 
+    [
+        "Fifteen", 
+        "sgt-fifteen"
+    ], 
+    [
+        "Mono Runtime (Terminal)", 
+        "mono;"
+    ], 
+    [
+        "Sixteen", 
+        "sgt-sixteen"
+    ], 
+    [
+        "GParted", 
+        "gparted"
+    ], 
+    [
+        "LibreOffice", 
+        "libreoffice"
+    ], 
+    [
+        "Xfce Terminal", 
+        "xfce4-terminal --preferences"
+    ], 
+    [
+        "Gigolo", 
+        "gigolo"
+    ], 
+    [
+        "KDE Partition Manager", 
+        "partitionmanager"
+    ], 
+    [
+        "Tents", 
+        "sgt-tents"
+    ], 
+    [
+        "Rectangles", 
+        "sgt-rect"
+    ], 
+    [
+        "Twiddle", 
+        "sgt-twiddle"
+    ], 
+    [
+        "Mail Reader", 
+        "exo-open --launch MailReader"
+    ], 
+    [
+        "Print Preview", 
+        "evince-previewer"
+    ], 
+    [
+        "Magnets", 
+        "sgt-magnets"
+    ], 
+    [
+        "Helm", 
+        "helm"
+    ], 
+    [
+        "Shared Folders", 
+        "shares-admin"
+    ], 
+    [
+        "Users and Groups", 
+        "users-admin"
+    ], 
+    [
+        "Time and Date", 
+        "time-admin"
+    ], 
+    [
+        "Simple Scan", 
+        "simple-scan"
+    ], 
+    [
+        "Window Manager", 
+        "xfwm4-settings"
+    ], 
+    [
+        "Pattern", 
+        "sgt-pattern"
+    ], 
+    [
+        "Bookmark Editor", 
+        "keditbookmarks"
+    ], 
+    [
+        "Network", 
+        "nm-applet"
+    ], 
+    [
+        "Menu Editor", 
+        "menulibre"
+    ], 
+    [
+        "Report a problem...", 
+        "/usr/share/apport/apport-gtk -c"
+    ], 
+    [
+        "Software Updater", 
+        "update-manager"
+    ], 
+    [
+        "Screenshot", 
+        "xfce4-screenshooter"
+    ], 
+    [
+        "LightDM GTK+ Greeter settings", 
+        "lightdm-gtk-greeter-settings-pkexec"
+    ], 
+    [
+        "SGT Puzzles Collection", 
+        "sgt-launcher"
+    ], 
+    [
+        "Display", 
+        "xfce4-display-settings"
+    ], 
+    [
+        "Fonts", 
+        "gnome-font-viewer"
+    ], 
+    [
+        "Map", 
+        "sgt-map"
+    ], 
+    [
+        "LibreOffice XSLT based filters", 
+        "libreoffice"
+    ], 
+    [
+        "Vim", 
+        "vim;"
+    ], 
+    [
+        "Orage Globaltime", 
+        "globaltime"
+    ], 
+    [
+        "Workspaces", 
+        "xfwm4-workspace-settings"
+    ], 
+    [
+        "calibre", 
+        "calibre"
+    ], 
+    [
+        "HandBrake", 
+        "ghb"
+    ], 
+    [
+        "LibreOffice Calc", 
+        "libreoffice --calc"
+    ], 
+    [
+        "Network Connections", 
+        "nm-connection-editor"
+    ], 
+    [
+        "Mousepad", 
+        "mousepad"
+    ], 
+    [
+        "E-book Viewer", 
+        "ebook-viewer"
+    ], 
+    [
+        "Help", 
+        "yelp"
+    ], 
+    [
+        "Bluetooth Adapters", 
+        "blueman-adapters"
+    ], 
+    [
+        "Printers", 
+        "system-config-printer"
+    ], 
+    [
+        "Mono Runtime", 
+        "mono"
+    ], 
+    [
+        "KDE Connect Settings", 
+        "kcmshell5 kcm_kdeconnect"
+    ], 
+    [
+        "PulseAudio Volume Control", 
+        "pavucontrol"
+    ], 
+    [
+        "Transmission", 
+        "transmission-gtk"
+    ], 
+    [
+        "Pidgin Internet Messenger", 
+        "pidgin"
+    ], 
+    [
+        "Monodoc (http)", 
+        "monodoc-http;"
+    ], 
+    [
+        "Rxvt Color Unicode Terminal", 
+        "urxvt"
+    ], 
+    [
+        "Ristretto Image Viewer", 
+        "ristretto"
+    ], 
+    [
+        "Signpost", 
+        "sgt-signpost"
+    ], 
+    [
+        "Redshift", 
+        "redshift;"
+    ], 
+    [
+        "LibreOffice Math", 
+        "libreoffice --math"
+    ], 
+    [
+        "Reactivate HP LaserJet 1018/1020 after reloading paper", 
+        "/usr/share/foo2zjs/hplj10xx_gui.tcl"
+    ], 
+    [
+        "Geoclue Demo agent", 
+        "/usr/lib/geoclue-2.0/demos/agent"
+    ], 
+    [
+        "Engrampa Archive Manager", 
+        "engrampa"
+    ], 
+    [
+        "Software & Updates", 
+        "software-properties-gtk"
+    ], 
+    [
+        "Dominosa", 
+        "sgt-dominosa"
+    ], 
+    [
+        "Atom", 
+        "/usr/share/atom/atom"
+    ], 
+    [
+        "Accessibility", 
+        "xfce4-accessibility-settings"
+    ], 
+    [
+        "Window Manager Tweaks", 
+        "xfwm4-tweaks-settings"
+    ], 
+    [
+        "Power Manager", 
+        "xfce4-power-manager-settings"
+    ], 
+    [
+        "Settings Editor", 
+        "xfce4-settings-editor"
+    ], 
+    [
+        "File Manager", 
+        "exo-open --launch FileManager"
+    ], 
+    [
+        "Parole Media Player", 
+        "parole"
+    ], 
+    [
+        "E-book Editor", 
+        "ebook-edit"
+    ], 
+    [
+        "Notes", 
+        "xfce4-notes"
+    ], 
+    [
+        "Access Prompt", 
+        "/usr/lib/gcr/gcr-prompter"
+    ], 
+    [
+        "Preferred Applications", 
+        "exo-preferred-applications"
+    ], 
+    [
+        "Calculator", 
+        "gnome-calculator"
+    ], 
+    [
+        "Open Folder with Thunar", 
+        "thunar"
+    ], 
+    [
+        "Text Editor", 
+        "gedit"
+    ], 
+    [
+        "KDE Connect Phone URL Handler", 
+        "kdeconnect-handler"
+    ], 
+    [
+        "Thunar File Manager", 
+        "thunar"
+    ], 
+    [
+        "Onboard", 
+        "onboard"
+    ], 
+    [
+        "Dictionary", 
+        "xfce4-dict"
+    ], 
+    [
+        "VLC media player", 
+        "vlc --started-from-file"
+    ], 
+    [
+        "Shotcut", 
+        "env BAMF_DESKTOP_FILE_HINT=/var/lib/snapd/desktop/applications/shotcut_shotcut.desktop /snap/bin/shotcut"
+    ]
+]

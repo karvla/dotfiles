@@ -1,0 +1,192 @@
+gedit
+Bluetooth Device
+Videostream for Google Chromecast™
+okular
+Google Drive
+YouTube
+Gmail
+Docs
+Spotify
+QuickTile
+Arduino IDE
+Anki
+Mixxx
+Unruly
+NVIDIA X Server Settings
+Singles
+Untangle
+KDE Connect Indicator
+Cube
+About Me
+Deluge
+Task Manager
+Loopy
+Run Program...
+Flip
+Black Box
+Okular
+Language Support
+Document Viewer
+Audacity
+Tracks
+Same Game
+MATE Calculator
+Flood
+OpenJDK Java 8 Runtime
+Web Browser
+Inkscape
+Guess
+Additional Drivers
+Light Up
+Htop
+Filling
+Orage Calendar
+Keyboard
+Slant
+Atril Document Viewer
+Onboard Settings
+Xfburn
+Towers
+Ukuu Kernel Update Utility
+Pearl
+Palisade
+KTelnetService
+Pegs
+Application Finder
+Skype
+Range
+Appearance
+Inertia
+Character Map
+RawTherapee
+Anthy Dictionary editor
+Bridges
+Desktop 
+Mines
+Undead
+MIME Type Editor
+OpenJDK Java 8 Policy Tool
+Galaxies
+Terminator
+PDF-Shuffler
+Archive Manager
+Phoronix Test Suite
+Chromium Web Browser
+LRF Viewer
+Solo
+Create Launcher on the panel
+About Xfce
+Notifications
+Keen
+LibreOffice Writer
+Bulk Rename
+Mouse and Touchpad
+Settings Manager
+Panel
+LinSSID
+Orage preferences
+Net
+UXTerm
+Steam
+Google Chrome
+Session and Startup
+Python (v3.6)
+Unequal
+Log Out
+Bluetooth Manager
+Netslide
+Input Method
+Xfce Panel Switch
+i3
+XTerm
+QDirStat
+Python (v2.7)
+Wireshark (GTK+)
+View file
+GNU Image Manipulation Program
+Catfish File Search
+Terminal Emulator
+Removable Drives and Media
+Firefox Web Browser
+Sudoku
+Fifteen
+Mono Runtime (Terminal)
+Sixteen
+GParted
+LibreOffice
+Xfce Terminal
+Gigolo
+KDE Partition Manager
+Tents
+Rectangles
+Twiddle
+Mail Reader
+Print Preview
+Magnets
+Helm
+Shared Folders
+Users and Groups
+Time and Date
+Simple Scan
+Window Manager
+Pattern
+Bookmark Editor
+Network
+Menu Editor
+Report a problem...
+Software Updater
+Screenshot
+LightDM GTK+ Greeter settings
+SGT Puzzles Collection
+Display
+Fonts
+Map
+LibreOffice XSLT based filters
+Vim
+Orage Globaltime
+Workspaces
+calibre
+HandBrake
+LibreOffice Calc
+Network Connections
+Mousepad
+E-book Viewer
+Help
+Bluetooth Adapters
+Printers
+Mono Runtime
+KDE Connect Settings
+PulseAudio Volume Control
+Transmission
+Pidgin Internet Messenger
+Monodoc (http)
+Rxvt Color Unicode Terminal
+Ristretto Image Viewer
+Signpost
+Redshift
+LibreOffice Math
+Reactivate HP LaserJet 1018/1020 after reloading paper
+Geoclue Demo agent
+Engrampa Archive Manager
+Software & Updates
+Dominosa
+Atom
+Accessibility
+Window Manager Tweaks
+Power Manager
+Settings Editor
+File Manager
+Parole Media Player
+E-book Editor
+Notes
+Access Prompt
+Preferred Applications
+Calculator
+Open Folder with Thunar
+Text Editor
+KDE Connect Phone URL Handler
+Thunar File Manager
+Onboard
+Dictionary
+VLC media player
+Shotcut

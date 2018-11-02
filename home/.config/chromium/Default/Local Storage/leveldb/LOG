@@ -1,0 +1,6 @@
+2018/11/02-12:17:06.091 2504 Reusing MANIFEST leveldb/MANIFEST-000001
+2018/11/02-12:17:06.107 2504 Recovering log #509
+2018/11/02-12:17:06.110 2504 Reusing old log leveldb/000509.log 
+2018/11/02-12:22:27.331 2498 Level-0 table #513: started
+2018/11/02-12:22:27.391 2498 Level-0 table #513: 804569 bytes OK
+2018/11/02-12:22:27.396 2498 Delete type=0 #509

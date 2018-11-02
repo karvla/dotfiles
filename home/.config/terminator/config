@@ -1,0 +1,35 @@
+[global_config]
+  borderless = True
+  dbus = False
+  extra_styling = False
+  suppress_multiple_term_dialog = True
+  title_font = Sans 11
+  title_transmit_bg_color = "#434343"
+  title_use_system_font = False
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_term = 038a7520-146a-4f38-8c7c-3b7c8f31a783
+      last_active_window = True
+      maximised = False
+      order = 0
+      parent = ""
+      position = 0:0
+      size = 960, 1061
+      title = karvla@karvla-UX430UQ: ~/courses/tsea56/snrbot/main-program
+      type = Window
+    [[[terminal1]]]
+      order = 0
+      parent = child0
+      profile = default
+      type = Terminal
+      uuid = 038a7520-146a-4f38-8c7c-3b7c8f31a783
+[plugins]
+[profiles]
+  [[default]]
+    background_color = "#242424"
+    cursor_color = "#aaaaaa"
+    foreground_color = "#d3d7cf"
+    scrollback_lines = 1000

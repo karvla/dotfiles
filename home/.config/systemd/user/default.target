@@ -1,5 +1,0 @@
-[Unit]
-Description="Default user target, starts a bunch of services"
-
-[Install]
-Alias=default.target
