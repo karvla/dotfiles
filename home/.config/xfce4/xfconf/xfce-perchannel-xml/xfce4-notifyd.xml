@@ -4,6 +4,7 @@
   <property name="applications" type="empty">
     <property name="known_applications" type="array">
       <value type="string" value="chromium-browser"/>
+      <value type="string" value="Firefox"/>
     </property>
   </property>
 </channel>

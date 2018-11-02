@@ -159,5 +159,6 @@ bar {
 exec "setxkbmap -layout us,se"
 exec "setxkbmap -option 'grp:menu_toggle'"
 exec --no-startup-id /usr/lib/geoclue-2.0/demos/agent
-exec "redshift"
+exec --no-startup-id redshift 
+exec "/home/karvla/apps/activitywatch/activitywatch/aw.qt"
 
