@@ -18,19 +18,21 @@ Untangle
 KDE Connect Indicator
 Cube
 About Me
+Oracle Java 8 Web Start
 Deluge
 Task Manager
 Loopy
 Run Program...
+Oracle Java 8 Policy Tool
 Flip
 Black Box
 Okular
 Language Support
-Document Viewer
 Audacity
 Tracks
 Same Game
 MATE Calculator
+Window Effects
 Flood
 OpenJDK Java 8 Runtime
 Web Browser
@@ -47,6 +49,7 @@ Atril Document Viewer
 Onboard Settings
 Xfburn
 Towers
+Jester
 Ukuu Kernel Update Utility
 Pearl
 Palisade
@@ -66,12 +69,14 @@ Mines
 Undead
 MIME Type Editor
 OpenJDK Java 8 Policy Tool
+Nicotine-Plus
 Galaxies
 Terminator
 PDF-Shuffler
 Archive Manager
 Phoronix Test Suite
 Chromium Web Browser
+Oracle Java 8 Console
 LRF Viewer
 Solo
 Create Launcher on the panel
@@ -102,8 +107,8 @@ XTerm
 QDirStat
 Python (v2.7)
 Wireshark (GTK+)
+Oracle Java 8 VisualVM
 View file
-GNU Image Manipulation Program
 Catfish File Search
 Terminal Emulator
 Removable Drives and Media
@@ -115,13 +120,13 @@ Sixteen
 GParted
 LibreOffice
 Xfce Terminal
+compton
 Gigolo
 KDE Partition Manager
 Tents
 Rectangles
 Twiddle
 Mail Reader
-Print Preview
 Magnets
 Helm
 Shared Folders
@@ -147,6 +152,7 @@ Orage Globaltime
 Workspaces
 calibre
 HandBrake
+Oracle Java 8 Runtime
 LibreOffice Calc
 Network Connections
 Mousepad
@@ -163,6 +169,7 @@ Monodoc (http)
 Rxvt Color Unicode Terminal
 Ristretto Image Viewer
 Signpost
+Oracle Java 8 Plugin Control Panel
 Redshift
 LibreOffice Math
 Reactivate HP LaserJet 1018/1020 after reloading paper
@@ -175,18 +182,23 @@ Accessibility
 Window Manager Tweaks
 Power Manager
 Settings Editor
+Laptop Mode Tools Configuration
 File Manager
 Parole Media Player
 E-book Editor
+Oracle Java 8 Mission Control
 Notes
 Access Prompt
 Preferred Applications
 Calculator
 Open Folder with Thunar
 Text Editor
+TeXdoctk
 KDE Connect Phone URL Handler
 Thunar File Manager
 Onboard
 Dictionary
+OpenJDK Java 11 Runtime
 VLC media player
 Shotcut
+GNU Image Manipulation Program

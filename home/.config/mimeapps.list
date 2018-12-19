@@ -1,7 +1,19 @@
-
 [Default Applications]
 text/html=chromium-browser.desktop
 x-scheme-handler/http=chromium-browser.desktop
 x-scheme-handler/https=chromium-browser.desktop
 x-scheme-handler/about=chromium-browser.desktop
 x-scheme-handler/unknown=chromium-browser.desktop
+x-scheme-handler/webcal=chromium-browser.desktop
+
+[Added Associations]
+application/pdf=okularApplication_pdf.desktop;calibre-ebook-viewer.desktop;
+application/vnd.debian.binary-package=org.gnome.FileRoller.desktop;
+inode/directory=vlc.desktop;
+audio/mpeg=vlc.desktop;
+application/zip=org.gnome.FileRoller.desktop;
+application/x-java-archive=openjdk-11-java.desktop;
+image/svg+xml=ristretto.desktop;
+image/png=ristretto.desktop;
+video/x-matroska=vlc.desktop;
+video/mp4=vlc.desktop;

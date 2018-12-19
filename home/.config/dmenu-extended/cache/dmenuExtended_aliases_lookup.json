@@ -80,6 +80,10 @@
         "mugshot"
     ], 
     [
+        "Oracle Java 8 Web Start", 
+        "javaws"
+    ], 
+    [
         "Deluge", 
         "deluge-gtk"
     ], 
@@ -94,6 +98,10 @@
     [
         "Run Program...", 
         "xfce4-appfinder --collapsed"
+    ], 
+    [
+        "Oracle Java 8 Policy Tool", 
+        "policytool"
     ], 
     [
         "Flip", 
@@ -112,10 +120,6 @@
         "gnome-language-selector"
     ], 
     [
-        "Document Viewer", 
-        "evince"
-    ], 
-    [
         "Audacity", 
         "audacity"
     ], 
@@ -130,6 +134,10 @@
     [
         "MATE Calculator", 
         "mate-calc"
+    ], 
+    [
+        "Window Effects", 
+        "compton-conf"
     ], 
     [
         "Flood", 
@@ -194,6 +202,10 @@
     [
         "Towers", 
         "sgt-towers"
+    ], 
+    [
+        "Jester", 
+        "jester"
     ], 
     [
         "Ukuu Kernel Update Utility", 
@@ -272,6 +284,10 @@
         "policytool"
     ], 
     [
+        "Nicotine-Plus", 
+        "nicotine"
+    ], 
+    [
         "Galaxies", 
         "sgt-galaxies"
     ], 
@@ -294,6 +310,10 @@
     [
         "Chromium Web Browser", 
         "chromium-browser"
+    ], 
+    [
+        "Oracle Java 8 Console", 
+        "jconsole"
     ], 
     [
         "LRF Viewer", 
@@ -416,12 +436,12 @@
         "wireshark-gtk"
     ], 
     [
-        "View file", 
-        "gcr-viewer"
+        "Oracle Java 8 VisualVM", 
+        "jvisualvm"
     ], 
     [
-        "GNU Image Manipulation Program", 
-        "gimp-2.99"
+        "View file", 
+        "gcr-viewer"
     ], 
     [
         "Catfish File Search", 
@@ -468,6 +488,10 @@
         "xfce4-terminal --preferences"
     ], 
     [
+        "compton", 
+        "compton"
+    ], 
+    [
         "Gigolo", 
         "gigolo"
     ], 
@@ -490,10 +514,6 @@
     [
         "Mail Reader", 
         "exo-open --launch MailReader"
-    ], 
-    [
-        "Print Preview", 
-        "evince-previewer"
     ], 
     [
         "Magnets", 
@@ -596,6 +616,10 @@
         "ghb"
     ], 
     [
+        "Oracle Java 8 Runtime", 
+        "java -jar"
+    ], 
+    [
         "LibreOffice Calc", 
         "libreoffice --calc"
     ], 
@@ -660,6 +684,10 @@
         "sgt-signpost"
     ], 
     [
+        "Oracle Java 8 Plugin Control Panel", 
+        "ControlPanel"
+    ], 
+    [
         "Redshift", 
         "redshift;"
     ], 
@@ -708,6 +736,10 @@
         "xfce4-settings-editor"
     ], 
     [
+        "Laptop Mode Tools Configuration", 
+        "lmt-config-gui"
+    ], 
+    [
         "File Manager", 
         "exo-open --launch FileManager"
     ], 
@@ -718,6 +750,10 @@
     [
         "E-book Editor", 
         "ebook-edit"
+    ], 
+    [
+        "Oracle Java 8 Mission Control", 
+        "jmc"
     ], 
     [
         "Notes", 
@@ -744,6 +780,10 @@
         "gedit"
     ], 
     [
+        "TeXdoctk", 
+        "texdoctk"
+    ], 
+    [
         "KDE Connect Phone URL Handler", 
         "kdeconnect-handler"
     ], 
@@ -760,11 +800,19 @@
         "xfce4-dict"
     ], 
     [
+        "OpenJDK Java 11 Runtime", 
+        "cautious-launcher"
+    ], 
+    [
         "VLC media player", 
         "vlc --started-from-file"
     ], 
     [
         "Shotcut", 
         "env BAMF_DESKTOP_FILE_HINT=/var/lib/snapd/desktop/applications/shotcut_shotcut.desktop /snap/bin/shotcut"
+    ], 
+    [
+        "GNU Image Manipulation Program", 
+        "env BAMF_DESKTOP_FILE_HINT=/var/lib/snapd/desktop/applications/gimp_gimp.desktop /snap/bin/gimp"
     ]
 ]
