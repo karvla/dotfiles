@@ -7,6 +7,11 @@
   title_transmit_bg_color = "#434343"
   title_use_system_font = False
 [keybindings]
+  go_down = <Alt>j
+  go_left = <Alt>h
+  go_right = <Alt>l
+  go_up = <Alt>k
+  layout_launcher = <Primary><Shift><Alt>l
 [layouts]
   [[default]]
     [[[child0]]]
@@ -33,3 +38,7 @@
     cursor_color = "#aaaaaa"
     foreground_color = "#d3d7cf"
     scrollback_lines = 1000
+  [[bright]]
+    background_color = "#ffffff"
+    cursor_color = "#aaaaaa"
+    foreground_color = "#000000"
