@@ -2,5 +2,5 @@
 ShowLeftPanel=false
 
 [PageView]
-MouseMode=Zoom
+EditToolBarPlacement=3
 TrimMargins=true

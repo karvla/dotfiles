@@ -9,7 +9,7 @@
     ], 
     [
         "Videostream for Google Chromecast\u2122", 
-        "chromium-browser --profile-directory=Default --app-id=cnciopoikihiagdjbjpnocolokfelagl"
+        "/opt/google/chrome/google-chrome --profile-directory=Default --app-id=cnciopoikihiagdjbjpnocolokfelagl"
     ], 
     [
         "okular", 
@@ -28,8 +28,24 @@
         "/opt/google/chrome/google-chrome --profile-directory=Default --app-id=pjkljhegncpnkpknbcohdijeoejaedia"
     ], 
     [
+        "Patchwork", 
+        "\"/home/karvla/apps/Patchwork-3.11.4-linux-x86_64.AppImage\""
+    ], 
+    [
         "Docs", 
         "/opt/google/chrome/google-chrome --profile-directory=Default --app-id=aohghmighlieiainnegkcijnfilokake"
+    ], 
+    [
+        "ImageJ", 
+        "/home/karvla/Downloads/Fiji.app/ImageJ-linux64"
+    ], 
+    [
+        "\"matlab\"", 
+        "\"matlab\""
+    ], 
+    [
+        "GNU Image Manipulation Program", 
+        "flatpak run --branch=stable --arch=x86_64 --command=gimp-2.10 --file-forwarding org.gimp.GIMP @@u"
     ], 
     [
         "Spotify", 
@@ -38,6 +54,10 @@
     [
         "QuickTile", 
         "quicktile --daemonize"
+    ], 
+    [
+        "OpenCFU", 
+        "opencfu"
     ], 
     [
         "Arduino IDE", 
@@ -90,6 +110,10 @@
     [
         "Task Manager", 
         "xfce4-taskmanager"
+    ], 
+    [
+        "Font Viewer", 
+        "/usr/lib/x86_64-linux-gnu/font-manager/font-viewer"
     ], 
     [
         "Loopy", 
@@ -476,6 +500,10 @@
         "sgt-sixteen"
     ], 
     [
+        "gpa", 
+        "gpa"
+    ], 
+    [
         "GParted", 
         "gparted"
     ], 
@@ -504,8 +532,16 @@
         "sgt-tents"
     ], 
     [
+        "KColorChooser", 
+        "kcolorchooser"
+    ], 
+    [
         "Rectangles", 
         "sgt-rect"
+    ], 
+    [
+        "Spyder", 
+        "spyder"
     ], 
     [
         "Twiddle", 
@@ -616,6 +652,10 @@
         "ghb"
     ], 
     [
+        "ARandR", 
+        "arandr"
+    ], 
+    [
         "Oracle Java 8 Runtime", 
         "java -jar"
     ], 
@@ -642,6 +682,14 @@
     [
         "Bluetooth Adapters", 
         "blueman-adapters"
+    ], 
+    [
+        "Portal", 
+        "/usr/libexec/xdg-desktop-portal-gtk"
+    ], 
+    [
+        "Blender", 
+        "blender"
     ], 
     [
         "Printers", 
@@ -724,20 +772,20 @@
         "xfce4-accessibility-settings"
     ], 
     [
-        "Window Manager Tweaks", 
-        "xfwm4-tweaks-settings"
+        "gscan2pdf", 
+        "gscan2pdf"
     ], 
     [
-        "Power Manager", 
-        "xfce4-power-manager-settings"
+        "Window Manager Tweaks", 
+        "xfwm4-tweaks-settings"
     ], 
     [
         "Settings Editor", 
         "xfce4-settings-editor"
     ], 
     [
-        "Laptop Mode Tools Configuration", 
-        "lmt-config-gui"
+        "Font Manager", 
+        "font-manager"
     ], 
     [
         "File Manager", 
@@ -746,6 +794,10 @@
     [
         "Parole Media Player", 
         "parole"
+    ], 
+    [
+        "Handler for snap:// URIs", 
+        "snap handle-link"
     ], 
     [
         "E-book Editor", 
@@ -812,7 +864,7 @@
         "env BAMF_DESKTOP_FILE_HINT=/var/lib/snapd/desktop/applications/shotcut_shotcut.desktop /snap/bin/shotcut"
     ], 
     [
-        "GNU Image Manipulation Program", 
-        "env BAMF_DESKTOP_FILE_HINT=/var/lib/snapd/desktop/applications/gimp_gimp.desktop /snap/bin/gimp"
+        "Midori", 
+        "env BAMF_DESKTOP_FILE_HINT=/var/lib/snapd/desktop/applications/midori_midori.desktop /snap/bin/midori"
     ]
 ]

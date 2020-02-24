@@ -1,7 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/home/karvla/apps/dotfiles/home/.tmux'
-let g:netrw_dirhist_2='/home/karvla/apps/dotfiles/home/.config/i3'
-let g:netrw_dirhist_3='/etc/xdg/autostart'
-let g:netrw_dirhist_4='/etc/lightdm/lightdm.conf.d'
-let g:netrw_dirhist_5='/home/karvla/projects/thankful/src/dashboard'
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/home/karvla/projects/igem/webtest/node_modules/sass-graph'
+let g:netrw_dirhist_2='/home/karvla/projects/igem/wiki2019/src'
+let g:netrw_dirhist_3='/home/karvla/projects/igem/wiki2019/test/src'
+let g:netrw_dirhist_4='/home/karvla/projects/igem/wiki2019/app/pages'
+let g:netrw_dirhist_5='/home/karvla/projects/igem/wiki2019/app/scss/libraries/littlefoot'
+let g:netrw_dirhist_6='/home/karvla/projects/igem/wiki2019/node_modules/littlefoot/node_modules/lodash.template'
+let g:netrw_dirhist_7='/home/karvla/.screenlayout'
+let g:netrw_dirhist_8='/etc/apt/sources.list.d'

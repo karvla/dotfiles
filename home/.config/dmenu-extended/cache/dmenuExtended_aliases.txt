@@ -5,9 +5,14 @@ okular
 Google Drive
 YouTube
 Gmail
+Patchwork
 Docs
+ImageJ
+"matlab"
+GNU Image Manipulation Program
 Spotify
 QuickTile
+OpenCFU
 Arduino IDE
 Anki
 Mixxx
@@ -21,6 +26,7 @@ About Me
 Oracle Java 8 Web Start
 Deluge
 Task Manager
+Font Viewer
 Loopy
 Run Program...
 Oracle Java 8 Policy Tool
@@ -117,6 +123,7 @@ Sudoku
 Fifteen
 Mono Runtime (Terminal)
 Sixteen
+gpa
 GParted
 LibreOffice
 Xfce Terminal
@@ -124,7 +131,9 @@ compton
 Gigolo
 KDE Partition Manager
 Tents
+KColorChooser
 Rectangles
+Spyder
 Twiddle
 Mail Reader
 Magnets
@@ -152,6 +161,7 @@ Orage Globaltime
 Workspaces
 calibre
 HandBrake
+ARandR
 Oracle Java 8 Runtime
 LibreOffice Calc
 Network Connections
@@ -159,6 +169,8 @@ Mousepad
 E-book Viewer
 Help
 Bluetooth Adapters
+Portal
+Blender
 Printers
 Mono Runtime
 KDE Connect Settings
@@ -179,12 +191,13 @@ Software & Updates
 Dominosa
 Atom
 Accessibility
+gscan2pdf
 Window Manager Tweaks
-Power Manager
 Settings Editor
-Laptop Mode Tools Configuration
+Font Manager
 File Manager
 Parole Media Player
+Handler for snap:// URIs
 E-book Editor
 Oracle Java 8 Mission Control
 Notes
@@ -201,4 +214,4 @@ Dictionary
 OpenJDK Java 11 Runtime
 VLC media player
 Shotcut
-GNU Image Manipulation Program
+Midori

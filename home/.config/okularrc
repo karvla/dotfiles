@@ -1,33 +1,36 @@
 [Desktop Entry]
 FullScreen=false
 shouldShowMenuBarComingFromFullScreen=true
-shouldShowToolBarComingFromFullScreen=true
+shouldShowToolBarComingFromFullScreen=false
 
 [MainWindow]
-Height 1080=1041
+Height 1080=897
 MenuBar=Enabled
-State=AAAA/wAAAAD9AAAAAAAAAnwAAAPYAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAAA7wAAANtAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
-Width 1920=636
+Width 1920=956
 
 [Recent Files]
-File1[$e]=$HOME/Downloads/03_ArvidLarsson_MariaÅkesson_commented.pdf
-File10[$e]=$HOME/Downloads/PT8_enkelsidor.pdf
-File2[$e]=$HOME/courses/faff10/Övningsuppgifter 1 kf.pdf
-File3[$e]=$HOME/courses/faff10/Kärnfysik2/KF-II-2018.pdf
-File4[$e]=$HOME/Downloads/paper.pdf
-File5[$e]=$HOME/courses/faff10/Övningsuppgifter 2 kf.pdf
-File6[$e]=$HOME/Downloads/JCa_5_Larsson_Arvid_9406304791_Assignment_5.pdf
-File7[$e]=$HOME/Downloads/Kärnfysik-övningar.pdf
-File8[$e]=$HOME/courses/faff10/Planering_2018.pdf
-File9[$e]=$HOME/courses/faff10/Atomspektroskopi/Atomspektroskopi_Arvid_Maria_Final.pdf
-Name1[$e]=03_ArvidLarsson_MariaÅkesson_commented.pdf
-Name10[$e]=PT8_enkelsidor.pdf
-Name2[$e]=Övningsuppgifter 1 kf.pdf
-Name3[$e]=KF-II-2018.pdf
-Name4[$e]=paper.pdf
-Name5[$e]=Övningsuppgifter 2 kf.pdf
-Name6[$e]=JCa_5_Larsson_Arvid_9406304791_Assignment_5.pdf
-Name7[$e]=Kärnfysik-övningar.pdf
-Name8[$e]=Planering_2018.pdf
-Name9[$e]=Atomspektroskopi_Arvid_Maria_Final.pdf
+File1[$e]=$HOME/Downloads/PulseSensorAmpedGettingStartedGuide.pdf
+File10[$e]=$HOME/Downloads/assignment1 (1).pdf
+File2[$e]=$HOME/Downloads/Simblee User Guide v2.05 (1).pdf
+File3[$e]=$HOME/courses/ffff05/komp2019.pdf
+File4[$e]=$HOME/courses/ffff05/Alla-lösningar-FTF-copy.pdf
+File5[$e]=$HOME/courses/ffff05/excersises.pdf
+File6[$e]=$HOME/Downloads/tenta171028 (1).pdf
+File7[$e]=$HOME/Downloads/igem_annual_report_2018.pdf
+File8[$e]=$HOME/Downloads/assignment1.pdf
+File9[$e]=$HOME/courses/fman85/assignment2/assignment2.pdf
+Name1[$e]=PulseSensorAmpedGettingStartedGuide.pdf
+Name10[$e]=assignment1 (1).pdf
+Name2[$e]=Simblee User Guide v2.05 (1).pdf
+Name3[$e]=komp2019.pdf
+Name4[$e]=Alla-lösningar-FTF-copy.pdf
+Name5[$e]=excersises.pdf
+Name6[$e]=tenta171028 (1).pdf
+Name7[$e]=igem_annual_report_2018.pdf
+Name8[$e]=assignment1.pdf
+Name9[$e]=assignment2.pdf
+
+[Shortcut Schemes]
+Current Scheme=Default
