@@ -5,7 +5,9 @@
     <property name="known_applications" type="array">
       <value type="string" value="Blueman"/>
       <value type="string" value="calibre"/>
+      <value type="string" value="calibre-gui"/>
       <value type="string" value="chromium-browser"/>
+      <value type="string" value="discord"/>
       <value type="string" value="Electron"/>
       <value type="string" value="Firefox"/>
       <value type="string" value="google-chrome"/>

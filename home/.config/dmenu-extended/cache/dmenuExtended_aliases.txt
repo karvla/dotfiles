@@ -1,3 +1,4 @@
+Data Composition
 gedit
 Bluetooth Device
 Videostream for Google Chromecast™
@@ -5,6 +6,7 @@ okular
 Google Drive
 YouTube
 Gmail
+Chrome Web Store Payments
 Patchwork
 Docs
 ImageJ
@@ -25,6 +27,7 @@ Cube
 About Me
 Oracle Java 8 Web Start
 Deluge
+Okular
 Task Manager
 Font Viewer
 Loopy
@@ -32,15 +35,18 @@ Run Program...
 Oracle Java 8 Policy Tool
 Flip
 Black Box
-Okular
+Sudoku
 Language Support
+PDF Arranger
 Audacity
 Tracks
 Same Game
 MATE Calculator
 Window Effects
 Flood
+ImageMagick (color depth=q16)
 OpenJDK Java 8 Runtime
+Python (v3.7)
 Web Browser
 Inkscape
 Guess
@@ -54,6 +60,8 @@ Slant
 Atril Document Viewer
 Onboard Settings
 Xfburn
+HandBrake
+Reader
 Towers
 Jester
 Ukuu Kernel Update Utility
@@ -70,21 +78,20 @@ Character Map
 RawTherapee
 Anthy Dictionary editor
 Bridges
-Desktop 
-Mines
+Desktop
 Undead
 MIME Type Editor
 OpenJDK Java 8 Policy Tool
 Nicotine-Plus
 Galaxies
 Terminator
-PDF-Shuffler
 Archive Manager
 Phoronix Test Suite
 Chromium Web Browser
 Oracle Java 8 Console
 LRF Viewer
 Solo
+Pacman
 Create Launcher on the panel
 About Xfce
 Notifications
@@ -92,10 +99,12 @@ Keen
 LibreOffice Writer
 Bulk Rename
 Mouse and Touchpad
+Neovim
 Settings Manager
 Panel
 LinSSID
 Orage preferences
+Mines
 Net
 UXTerm
 Steam
@@ -110,16 +119,16 @@ Input Method
 Xfce Panel Switch
 i3
 XTerm
+Light Locker Settings
 QDirStat
 Python (v2.7)
 Wireshark (GTK+)
 Oracle Java 8 VisualVM
 View file
-Catfish File Search
 Terminal Emulator
 Removable Drives and Media
 Firefox Web Browser
-Sudoku
+Livepatch
 Fifteen
 Mono Runtime (Terminal)
 Sixteen
@@ -133,8 +142,8 @@ KDE Partition Manager
 Tents
 KColorChooser
 Rectangles
-Spyder
 Twiddle
+3D Acceleration
 Mail Reader
 Magnets
 Helm
@@ -148,7 +157,6 @@ Bookmark Editor
 Network
 Menu Editor
 Report a problem...
-Software Updater
 Screenshot
 LightDM GTK+ Greeter settings
 SGT Puzzles Collection
@@ -160,11 +168,10 @@ Vim
 Orage Globaltime
 Workspaces
 calibre
-HandBrake
 ARandR
 Oracle Java 8 Runtime
 LibreOffice Calc
-Network Connections
+Advanced Network Configuration
 Mousepad
 E-book Viewer
 Help
@@ -193,6 +200,7 @@ Atom
 Accessibility
 gscan2pdf
 Window Manager Tweaks
+Power Manager
 Settings Editor
 Font Manager
 File Manager
@@ -201,6 +209,7 @@ Handler for snap:// URIs
 E-book Editor
 Oracle Java 8 Mission Control
 Notes
+Catfish File Search
 Access Prompt
 Preferred Applications
 Calculator

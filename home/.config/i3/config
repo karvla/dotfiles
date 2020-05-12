@@ -1,5 +1,8 @@
 set $mod Mod4
 
+# move workspace to monitor
+bindsym $mod+m move workspace to output up
+
 # font for window titles. ISO 10646 = Unicode
 font pango: M+ 1m, FontAwesome, Ionicons, 8 
 
@@ -161,4 +164,6 @@ exec --no-startup-id tlp start
 exec --no-startup-id blueman-applet 
 exec --no-startup-id nm-applet
 exec --no-startup-id "/home/karvla/apps/activitywatch/aw-qt"
+exec --no-startup-id zoom
+exec --no-startup-id discord
 

@@ -1,5 +1,9 @@
 [
     [
+        "Data Composition", 
+        "xfburn --data-composition"
+    ], 
+    [
         "gedit", 
         "gedit"
     ], 
@@ -26,6 +30,10 @@
     [
         "Gmail", 
         "/opt/google/chrome/google-chrome --profile-directory=Default --app-id=pjkljhegncpnkpknbcohdijeoejaedia"
+    ], 
+    [
+        "Chrome Web Store Payments", 
+        "/opt/google/chrome/google-chrome --profile-directory=Default --app-id=nmmhkkegccagdldgiimedpiccmgmieda"
     ], 
     [
         "Patchwork", 
@@ -69,7 +77,7 @@
     ], 
     [
         "Mixxx", 
-        "sh -c \"pasuspender -- mixxx || mixxx\""
+        "mixxx"
     ], 
     [
         "Unruly", 
@@ -108,6 +116,10 @@
         "deluge-gtk"
     ], 
     [
+        "Okular", 
+        "okular"
+    ], 
+    [
         "Task Manager", 
         "xfce4-taskmanager"
     ], 
@@ -136,12 +148,16 @@
         "sgt-blackbox"
     ], 
     [
-        "Okular", 
-        "okular"
+        "Sudoku", 
+        "gnome-sudoku"
     ], 
     [
         "Language Support", 
         "gnome-language-selector"
+    ], 
+    [
+        "PDF Arranger", 
+        "pdfarranger"
     ], 
     [
         "Audacity", 
@@ -168,8 +184,16 @@
         "sgt-flood"
     ], 
     [
+        "ImageMagick (color depth=q16)", 
+        "display-im6.q16 -nostdin"
+    ], 
+    [
         "OpenJDK Java 8 Runtime", 
         "cautious-launcher"
+    ], 
+    [
+        "Python (v3.7)", 
+        "python3.7;"
     ], 
     [
         "Web Browser", 
@@ -222,6 +246,14 @@
     [
         "Xfburn", 
         "xfburn"
+    ], 
+    [
+        "HandBrake", 
+        "ghb"
+    ], 
+    [
+        "Reader", 
+        "kpackagelauncherqml -a org.kde.mobile.okular"
     ], 
     [
         "Towers", 
@@ -288,12 +320,8 @@
         "sgt-bridges"
     ], 
     [
-        "Desktop ", 
+        "Desktop", 
         "xfdesktop-settings"
-    ], 
-    [
-        "Mines", 
-        "gnome-mines"
     ], 
     [
         "Undead", 
@@ -320,10 +348,6 @@
         "terminator"
     ], 
     [
-        "PDF-Shuffler", 
-        "pdfshuffler"
-    ], 
-    [
         "Archive Manager", 
         "file-roller"
     ], 
@@ -346,6 +370,10 @@
     [
         "Solo", 
         "sgt-solo"
+    ], 
+    [
+        "Pacman", 
+        "pacman"
     ], 
     [
         "Create Launcher on the panel", 
@@ -376,6 +404,10 @@
         "xfce4-mouse-settings"
     ], 
     [
+        "Neovim", 
+        "nvim;"
+    ], 
+    [
         "Settings Manager", 
         "xfce4-settings-manager"
     ], 
@@ -385,11 +417,15 @@
     ], 
     [
         "LinSSID", 
-        "linssid"
+        "linssid-pkexec"
     ], 
     [
         "Orage preferences", 
         "orage -p"
+    ], 
+    [
+        "Mines", 
+        "gnome-mines"
     ], 
     [
         "Net", 
@@ -448,6 +484,10 @@
         "xterm"
     ], 
     [
+        "Light Locker Settings", 
+        "light-locker-settings"
+    ], 
+    [
         "QDirStat", 
         "qdirstat"
     ], 
@@ -468,10 +508,6 @@
         "gcr-viewer"
     ], 
     [
-        "Catfish File Search", 
-        "catfish"
-    ], 
-    [
         "Terminal Emulator", 
         "exo-open --launch TerminalEmulator"
     ], 
@@ -484,8 +520,8 @@
         "firefox"
     ], 
     [
-        "Sudoku", 
-        "gnome-sudoku"
+        "Livepatch", 
+        "software-properties-gtk --open-tab=6"
     ], 
     [
         "Fifteen", 
@@ -540,12 +576,12 @@
         "sgt-rect"
     ], 
     [
-        "Spyder", 
-        "spyder"
-    ], 
-    [
         "Twiddle", 
         "sgt-twiddle"
+    ], 
+    [
+        "3D Acceleration", 
+        "driconf"
     ], 
     [
         "Mail Reader", 
@@ -600,10 +636,6 @@
         "/usr/share/apport/apport-gtk -c"
     ], 
     [
-        "Software Updater", 
-        "update-manager"
-    ], 
-    [
         "Screenshot", 
         "xfce4-screenshooter"
     ], 
@@ -648,10 +680,6 @@
         "calibre"
     ], 
     [
-        "HandBrake", 
-        "ghb"
-    ], 
-    [
         "ARandR", 
         "arandr"
     ], 
@@ -664,7 +692,7 @@
         "libreoffice --calc"
     ], 
     [
-        "Network Connections", 
+        "Advanced Network Configuration", 
         "nm-connection-editor"
     ], 
     [
@@ -780,6 +808,10 @@
         "xfwm4-tweaks-settings"
     ], 
     [
+        "Power Manager", 
+        "xfce4-power-manager-settings"
+    ], 
+    [
         "Settings Editor", 
         "xfce4-settings-editor"
     ], 
@@ -810,6 +842,10 @@
     [
         "Notes", 
         "xfce4-notes"
+    ], 
+    [
+        "Catfish File Search", 
+        "catfish"
     ], 
     [
         "Access Prompt", 

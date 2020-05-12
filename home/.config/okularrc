@@ -4,33 +4,32 @@ shouldShowMenuBarComingFromFullScreen=true
 shouldShowToolBarComingFromFullScreen=false
 
 [MainWindow]
-Height 1080=897
-MenuBar=Enabled
-State=AAAA/wAAAAD9AAAAAAAAA7wAAANtAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+Height 1080=1005
+State=AAAA/wAAAAD9AAAAAAAAB3wAAAP9AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
-Width 1920=956
+Width 1920=1916
 
 [Recent Files]
-File1[$e]=$HOME/Downloads/PulseSensorAmpedGettingStartedGuide.pdf
-File10[$e]=$HOME/Downloads/assignment1 (1).pdf
-File2[$e]=$HOME/Downloads/Simblee User Guide v2.05 (1).pdf
-File3[$e]=$HOME/courses/ffff05/komp2019.pdf
-File4[$e]=$HOME/courses/ffff05/Alla-lösningar-FTF-copy.pdf
-File5[$e]=$HOME/courses/ffff05/excersises.pdf
-File6[$e]=$HOME/Downloads/tenta171028 (1).pdf
-File7[$e]=$HOME/Downloads/igem_annual_report_2018.pdf
-File8[$e]=$HOME/Downloads/assignment1.pdf
-File9[$e]=$HOME/courses/fman85/assignment2/assignment2.pdf
-Name1[$e]=PulseSensorAmpedGettingStartedGuide.pdf
-Name10[$e]=assignment1 (1).pdf
-Name2[$e]=Simblee User Guide v2.05 (1).pdf
-Name3[$e]=komp2019.pdf
-Name4[$e]=Alla-lösningar-FTF-copy.pdf
-Name5[$e]=excersises.pdf
-Name6[$e]=tenta171028 (1).pdf
-Name7[$e]=igem_annual_report_2018.pdf
-Name8[$e]=assignment1.pdf
-Name9[$e]=assignment2.pdf
+File1[$e]=$HOME/Downloads/All_About_Readability_v.pdf
+File10[$e]=$HOME/Downloads/Kapitel-H-Kontsys.pdf
+File2[$e]=$HOME/Downloads/f697aeeee25b02c97daa6fc522a1f211.pdf
+File3[$e]=$HOME/Downloads/solution_2017-08-17 (4).pdf
+File4[$e]=$HOME/courses/Avklarat/fman55/formelsamling.pdf
+File5[$e]=$HOME/Downloads/solution_2017-08-17 (5).pdf
+File6[$e]=$HOME/Downloads/solution_2017-08-17 (6).pdf
+File7[$e]=$HOME/Downloads/exam_2017-05-29 (6).pdf
+File8[$e]=$HOME/Downloads/Kapitel-0-Kontsys (1).pdf
+File9[$e]=$HOME/Downloads/Kapitel-1-Kontsys.pdf
+Name1[$e]=All_About_Readability_v.pdf
+Name10[$e]=Kapitel-H-Kontsys.pdf
+Name2[$e]=f697aeeee25b02c97daa6fc522a1f211.pdf
+Name3[$e]=solution_2017-08-17 (4).pdf
+Name4[$e]=formelsamling.pdf
+Name5[$e]=solution_2017-08-17 (5).pdf
+Name6[$e]=solution_2017-08-17 (6).pdf
+Name7[$e]=exam_2017-05-29 (6).pdf
+Name8[$e]=Kapitel-0-Kontsys (1).pdf
+Name9[$e]=Kapitel-1-Kontsys.pdf
 
 [Shortcut Schemes]
 Current Scheme=Default
