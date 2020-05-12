@@ -15,7 +15,7 @@ client.unfocused #3c3b37 #3c3b37 #dcdccc #3c3b37
 client.urgent #dca3a3 #dca3a3 #dcdccc #3c3b37
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+Return exec terminator
 
 # kill focused window
 bindsym $mod+Shift+q kill
