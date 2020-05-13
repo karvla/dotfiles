@@ -1,6 +1,7 @@
 backup/
 home/.config/chromium/
 home/.config/activitywatch/
+home/.config/Patchwork/
 *.swp
 npm-debug.log
 *.bkp
