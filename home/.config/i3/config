@@ -154,7 +154,8 @@ exec --no-startup-id setxkbmap -layout 'us(inl)'
 exec --no-startup-id xmodmap ~/.config/xmodmap/erb.xmodmap
 exec --no-startup-id /usr/lib/geoclue-2.0/demos/agent
 exec --no-startup-id compton 
-exec --no-startup-id clight 
+exec --no-startup-id redshift 
+exec --no-startup-id picom --config  /etc/xdg/picom.conf
 exec --no-startup-id tlp start 
 exec --no-startup-id blueman-applet 
 exec --no-startup-id nm-applet

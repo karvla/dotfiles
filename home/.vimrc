@@ -1,26 +1,26 @@
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
-" set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-" alternatively, pass a path where Vundle should install plugins
-"call vundle#begin('~/some/path/here')
+" Install vim-plug
+" sh -c 'curl -fLo \"${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 
-"let Vundle manage Vundle, required
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'Valloric/YouCompleteMe'
-Plugin 'JuliaEditorSupport/julia-vim'
-Plugin 'mattn/emmet-vim'
-Plugin 'psf/black'
-Plugin 'vim-pandoc/vim-pandoc'
-Plugin 'vim-pandoc/vim-pandoc-syntax'
-Plugin 'vim-pandoc/vim-rmarkdown'
+call plug#begin('~/.vim/plugged')
+Plug 'JuliaEditorSupport/julia-vim'
+Plug 'mattn/emmet-vim'
+Plug 'psf/black'
+Plug 'vim-pandoc/vim-pandoc'
+Plug 'vim-pandoc/vim-pandoc-syntax'
+Plug 'vim-pandoc/vim-rmarkdown'
+Plug 'dpelle/vim-LanguageTool'
+Plug 'lervag/vimtex'
+
+
 
 let g:user_emmet_leader_key=','
+let g:languagetool_jar='$HOME/.vim/plugged/vim-LanguageTool/LanguageTool-5.1-SNAPSHOT/languagetool-commandline.jar'
 
-" All of your Plugins must be added before the following line
-call vundle#end()            " required
+
+call plug#end()            " required
 filetype plugin indent on    " required
 filetype plugin on
 "
