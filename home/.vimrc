@@ -12,7 +12,6 @@ Plug 'vim-pandoc/vim-pandoc'
 Plug 'vim-pandoc/vim-pandoc-syntax'
 Plug 'vim-pandoc/vim-rmarkdown'
 Plug 'dpelle/vim-LanguageTool'
-Plug 'lervag/vimtex'
 
 
 

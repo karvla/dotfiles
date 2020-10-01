@@ -150,14 +150,13 @@ bindsym $mod+F8 exec "/home/karvla/.screenlayout/default.sh"
 bindsym $mod+Shift+F8 exec "/home/karvla/.screenlayout/home_desktop.sh"
 
 # Autostart
-exec --no-startup-id setxkbmap -layout 'us(inl)' 
-exec --no-startup-id xmodmap ~/.config/xmodmap/erb.xmodmap
 exec --no-startup-id /usr/lib/geoclue-2.0/demos/agent
-exec --no-startup-id compton 
 exec --no-startup-id redshift 
-exec --no-startup-id picom --config  /etc/xdg/picom.conf
+exec --no-startup-id picom --config  ~/.config/picom.conf
 exec --no-startup-id tlp start 
 exec --no-startup-id blueman-applet 
 exec --no-startup-id nm-applet
 exec --no-startup-id aw-qt
+exec --no-startup-id setxkbmap -layout "us" -variant intl
+exec --no-startup-id xmodmap /home/karvla/.config/xmodmap/erb.xmodmap
 
