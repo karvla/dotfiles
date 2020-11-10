@@ -3,6 +3,7 @@ ShowLeftPanel=false
 
 [PageView]
 EditToolBarPlacement=2
+MouseMode=RectSelect
 TrimMargins=true
 
 [Reviews]
