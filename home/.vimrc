@@ -31,14 +31,22 @@ filetype plugin on
 "
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this linexxxxxx
- set backspace=indent,eol,start
- set clipboard=unnamedplus
- syntax on
- filetype plugin indent on
- set number
- set hidden
- set tabstop=4
- set shiftwidth=4
- set expandtab
- set clipboard=unnamedplus
- let g:ycm_global_ycm_extra_conf = '~/.vim/.ycm_extra_conf.py'
+set backspace=indent,eol,start
+set clipboard=unnamedplus
+syntax on
+filetype plugin indent on
+set number
+set hidden
+set tabstop=4
+set shiftwidth=4
+set expandtab
+set clipboard=unnamedplus
+
+set splitbelow
+set splitright
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
+let g:ycm_global_ycm_extra_conf = '~/.vim/.ycm_extra_conf.py'
