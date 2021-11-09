@@ -1,0 +1,16 @@
+[core]
+	autocrlf = true
+[user]
+	name = Arvid Larsson
+	email = arvid94@gmail.com
+[http]
+	version = HTTP/1.1
+[alias]
+	st = status --short --branch
+	dp = diff --word-diff --unified=10
+	lg = log --pretty='%Cred%h%Creset | %C(yellow)%d%Creset %s %Cgreen(%cr)%Creset %C(cyan)[%an]%Creset'
+	ch = checkout
+	amend = commit --amend --no-edit
+	done = push origin HEAD
+[diff]
+	algorithm = histogram
