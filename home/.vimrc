@@ -173,6 +173,7 @@ nnoremap <leader>.e :FZF ~/.dotfiles<CR>
 map <leader>/ <Plug>(incsearch-fuzzy-/)
 map <leader>? <Plug>(incsearch-fuzzy-?)
 
+" Split
 nnoremap <Leader>\| <C-w>v
 nnoremap <Leader>- <C-w>s
 
