@@ -74,24 +74,9 @@ symlinks () {
     chmod 600 home/.ssh/authorized_keys
 }
 
-fortunes() {
-    cd $REPO_DIR/home/.fortunes
-    ./generate-dat.sh 1>&/dev/null
-    cd $REPO_DIR
-    echo_green "Generated fortune .dat files!"
-}
-
-youcompleteme() {
-    cd home/.vim/bundle/YouCompleteMe
-    git checkout master
-    git submodule update --init --recursive
-    ./install.py --racer-completer --tern-completer --gocode-completer #--clang-completer
-    cd $REPO_DIR
-}
-
 echo_bold "Welcome to my dotfiles setup script!"
 
-SECTIONS=(submodules symlinks fortunes youcompleteme)
+SECTIONS=(submodules symlinks)
 
 for section in "${SECTIONS[@]}"; do
     echo -ne "Would you like to setup $section? (${GREEN}y${CLEAR}/${RED}n${CLEAR}): "
