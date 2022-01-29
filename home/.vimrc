@@ -58,6 +58,9 @@ call plug#begin('~/.vim/plugged')
     " LaTeX synctex synchronization through DBus
     Plug 'peterbjorgensen/sved'
 
+    " Tmux vim navigation
+    Plug 'christoomey/vim-tmux-navigator'
+
     " Neovim LSP plugins
     if has('nvim')
         " Good default LSP server configurations
@@ -126,8 +129,6 @@ set noshowmode
 set number
 set relativenumber
 set ruler
-nmap <C-L><C-L> :set invrelativenumber<CR>
-
 " --------------------------------------------------------------------------------------------------------------------
 " --                                                   Keybindings                                                  --
 " --------------------------------------------------------------------------------------------------------------------
@@ -147,20 +148,6 @@ map <Leader>f :FZFBLines<CR>
 " Fzf lines in all open buffers
 map <Leader>F :Lines<CR>
 
-" No yank on delete. Use <Leader+d> to remove and yank
-nnoremap d "_d
-xnoremap d "_d
-nnoremap x "_x
-xnoremap x "_x
-nnoremap s "_s
-xnoremap s "_s
-nnoremap c "_c
-xnoremap c "_c
-nnoremap C "_C
-xnoremap C "_C
-nnoremap <leader>d ""d
-xnoremap <leader>d ""d
-
 " Pinky friendly substitute for <C-u> and <C-d>
 nnoremap U <C-u>
 nnoremap D <C-d>
@@ -169,12 +156,6 @@ xnoremap D <C-d>
 
 " No highlight
 nnoremap <leader>n :noh<CR>
-
-" i3-like binding for switching between splits
-nnoremap <M-ö> <C-W>l
-nnoremap <M-j> <C-W>h
-nnoremap <M-k> <C-W>j
-nnoremap <M-l> <C-W>k
 
 " Redraw
 nnoremap <leader>r :redraw!<CR>
@@ -191,6 +172,9 @@ nnoremap <leader>.e :FZF ~/.dotfiles<CR>
 " FZF incsearch
 map <leader>/ <Plug>(incsearch-fuzzy-/)
 map <leader>? <Plug>(incsearch-fuzzy-?)
+
+nnoremap <Leader>\| <C-w>v
+nnoremap <Leader>- <C-w>s
 
 " --------------------------------------------------------------------------------------------------------------------
 " --                                                     Misc                                                       --
@@ -285,5 +269,6 @@ EOF
 "    end
 "    lspconfig.vhdl_tool.setup{ capabilities = capabilities }
 "EOF
+
 
 endif "if has('nvim')
