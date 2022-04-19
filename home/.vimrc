@@ -61,6 +61,11 @@ call plug#begin('~/.vim/plugged')
     " Tmux vim navigation
     Plug 'christoomey/vim-tmux-navigator'
 
+    " Prettier-js formatter
+    Plug 'prettier/vim-prettier', {
+      \ 'do': 'npm install --frozen-lockfile --production',
+      \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'svelte', 'yaml', 'html'] }
+
     " Neovim LSP plugins
     if has('nvim')
         " Good default LSP server configurations
@@ -96,6 +101,8 @@ call plug#begin('~/.vim/plugged')
     " Minimap
     "Plug 'wfxr/minimap.vim'
     "Plug 'wfxr/minimap.vim', {'do': ':!cargo install --locked code-minimap'}
+
+    Plug 'ActivityWatch/aw-watcher-vim'
 
 " Initialize plugin system
 call plug#end()
@@ -145,8 +152,11 @@ map <Leader>w :Buffers<CR>
 " Fzf lines in current buffer
 map <Leader>f :FZFBLines<CR>
 
-" Fzf lines in all open buffers
-map <Leader>F :Lines<CR>
+" Fzf lines in all files in project
+map <Leader>F :Ag<CR>
+
+" Fzf git status
+map <Leader>g :GFiles?<CR>
 
 " Pinky friendly substitute for <C-u> and <C-d>
 nnoremap U <C-u>

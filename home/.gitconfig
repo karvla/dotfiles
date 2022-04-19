@@ -1,5 +1,3 @@
-[core]
-	autocrlf = true
 [user]
 	name = Arvid Larsson
 	email = arvid94@gmail.com

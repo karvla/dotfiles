@@ -76,7 +76,7 @@ symlinks () {
 
 echo_bold "Welcome to my dotfiles setup script!"
 
-SECTIONS=(submodules symlinks)
+SECTIONS=(symlinks)
 
 for section in "${SECTIONS[@]}"; do
     echo -ne "Would you like to setup $section? (${GREEN}y${CLEAR}/${RED}n${CLEAR}): "
