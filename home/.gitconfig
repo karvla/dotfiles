@@ -7,6 +7,8 @@
 	st = status --short --branch
 	dp = diff --word-diff --unified=10
 	lg = log --pretty='%Cred%h%Creset | %C(yellow)%d%Creset %s %Cgreen(%cr)%Creset %C(cyan)[%an]%Creset'
+    lmas = lg master..
+    lmai = lg main..
 	ch = checkout
 	amend = commit --amend --no-edit
 	done = push origin HEAD
