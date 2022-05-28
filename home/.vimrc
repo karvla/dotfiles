@@ -85,6 +85,7 @@ call plug#begin('~/.vim/plugged')
 
         Plug 'hrsh7th/vim-vsnip'        " Snippet engine
         Plug 'hrsh7th/vim-vsnip-integ'  " Snippet support for common LSP-clients
+        Plug 'github/copilot.vim'
     endif
 
     " NeoVim sudo read/write (:SudaRead, :SudaWrite)
