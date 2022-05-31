@@ -3,6 +3,10 @@
 local cmp = require'cmp'
 local lspkind = require('lspkind')
 
+    local cmp = require'cmp'
+local lspkind = require('lspkind')
+
+-- Completion engine setup.
 cmp.setup({
     snippet = {
         expand = function(args)
@@ -19,22 +23,38 @@ cmp.setup({
         ['<CR>'] = cmp.mapping.confirm({ select = true }),
     },
     formatting = {
-      format = require("lspkind").cmp_format({with_text = true, maxwidth = 70, menu = ({
-          buffer = "[Buffer]",
-          nvim_lsp = "[LSP]",
-          luasnip = "[LuaSnip]",
-          nvim_lua = "[Lua]",
-          latex_symbols = "[Latex]",
-        })}),
+      format = lspkind.cmp_format({
+        with_text = true,
+        maxwidth = 70,
+        menu = ({
+          buffer = "[Buffer]",      
+          nvim_lsp = "[LSP]",       
+          luasnip = "[LuaSnip]",    
+          nvim_lua = "[Lua]",       
+          latex_symbols = "[LaTeX]",
+        }),
+      }),
     },
     sources = cmp.config.sources({
-        { name = 'nvim_lsp' },
-        { name = 'vsnip' }, -- For vsnip users.
-    }, {
-        { name = 'buffer' },
+        { name = 'nvim_lsp' },  -- NVim LSP autocompletions
+        { name = 'vsnip' },     -- VSnip autocompletions
+        { name = 'path' },      -- cmp-path autocompletions
+        { name = 'buffer' },    -- cmp-buffer autocompletions
     }),
-    documentation = {
-        --border = { 'a', '-', 'c', '|' }
-    },
 })
 
+-- Use buffer source for `/` (if you enabled `native_menu`, this won't work anymore).
+cmp.setup.cmdline('/', {
+  sources = {
+    { name = 'buffer' }
+  }
+})
+
+-- Use cmdline & path source for ':' (if you enabled `native_menu`, this won't work anymore).
+cmp.setup.cmdline(':', {
+  sources = cmp.config.sources({
+    { name = 'path' }
+  }, {
+    { name = 'cmdline' }
+  })
+})

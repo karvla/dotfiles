@@ -61,11 +61,7 @@ call plug#begin('~/.vim/plugged')
     " Tmux vim navigation
     Plug 'christoomey/vim-tmux-navigator'
 
-    " Prettier-js formatter
-    Plug 'prettier/vim-prettier', {
-      \ 'do': 'npm install --frozen-lockfile --production',
-      \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'svelte', 'yaml', 'html'] }
-
+    Plug 'vim-scripts/vim-gitgutter'
     " Neovim LSP plugins
     if has('nvim')
         " Good default LSP server configurations
@@ -210,6 +206,8 @@ set nowrap
 set tabstop=4
 set shiftwidth=4
 set expandtab
+let $FZF_DEFAULT_COMMAND='find . \( -name node_modules -o -name .git \) -prune -o -print'
+let $FZF_DEFAULT_OPTS="--ansi --preview-window 'right:60%' --layout reverse --margin=1,4 --preview 'bat --color=always --style=header,grid --line-range :300 {}'"
 
 " Cycle numbered registers when yanking. This allow the numbered registers to
 " act like a ring buffer when performing the yank operation (just like delete
@@ -239,28 +237,31 @@ let g:any_jump_list_numbers = 1
 " Minimap settings
 let g:minimap_auto_start = 1
 
+let g:gitgutter_enabled = 1
+let g:gitgutter_highlight_linenrs = 1
+
 " --------------------------------------------------------------------------------------------------------------------
 " --                                            LSP settings for NeoVim                                             --
 " --------------------------------------------------------------------------------------------------------------------
 "
-if has('nvim')
-
-set completeopt=menu,menuone,noselect
-lua << EOF
-     require('config/cmp')       -- CMP Autocompletion settings
-     require('config/keybinds')  -- General LSP keybinds
-EOF
-
-" LSP config for servers installed with nvim-lsp-installer
-lua << EOF
-    local lsp_installer = require("nvim-lsp-installer")
-    lsp_installer.on_server_ready(function(server)
-        local opts = {
-            capabilities = require("cmp_nvim_lsp").update_capabilities(vim.lsp.protocol.make_client_capabilities())
-        }
-        server:setup(opts)
-    end)
-EOF
+"if has('nvim')
+"
+"set completeopt=menu,menuone,noselect
+"lua << EOF
+"     require('config/cmp')       -- CMP Autocompletion settings
+"     require('config/keybinds')  -- General LSP keybinds
+"EOF
+"
+"" LSP config for servers installed with nvim-lsp-installer
+"lua << EOF
+"    local lsp_installer = require("nvim-lsp-installer")
+"    lsp_installer.on_server_ready(function(server)
+"        local opts = {
+"            capabilities = require("cmp_nvim_lsp").update_capabilities(vim.lsp.protocol.make_client_capabilities())
+"        }
+"        server:setup(opts)
+"    end)
+"EOF
 
 " VHDL Language server with VHDL-Tool
 "lua << EOF
@@ -283,4 +284,4 @@ EOF
 "EOF
 
 
-endif "if has('nvim')
+"endif "if has('nvim')
