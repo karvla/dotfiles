@@ -61,7 +61,10 @@ call plug#begin('~/.vim/plugged')
     " Tmux vim navigation
     Plug 'christoomey/vim-tmux-navigator'
 
-    Plug 'vim-scripts/vim-gitgutter'
+    Plug 'othree/html5.vim'
+    Plug 'pangloss/vim-javascript'
+    Plug 'evanleck/vim-svelte', {'branch': 'main'}
+
     " Neovim LSP plugins
     if has('nvim')
         " Good default LSP server configurations
@@ -82,6 +85,17 @@ call plug#begin('~/.vim/plugged')
         Plug 'hrsh7th/vim-vsnip'        " Snippet engine
         Plug 'hrsh7th/vim-vsnip-integ'  " Snippet support for common LSP-clients
         Plug 'github/copilot.vim'
+
+        " search and replace
+        Plug 'nvim-lua/plenary.nvim'
+        Plug 'windwp/nvim-spectre'
+
+        Plug 'nvim-lua/plenary.nvim'
+        Plug 'akinsho/flutter-tools.nvim'
+        Plug 'dense-analysis/ale'
+
+        Plug 'folke/todo-comments.nvim'
+
     endif
 
     " NeoVim sudo read/write (:SudaRead, :SudaWrite)
@@ -155,6 +169,12 @@ map <Leader>F :Ag<CR>
 " Fzf git status
 map <Leader>g :GFiles?<CR>
 
+" New tab
+map tn :tabedit<CR>
+
+" Toggle explorer
+map <Leader>le :Lexplore<CR>
+
 " Pinky friendly substitute for <C-u> and <C-d>
 nnoremap U <C-u>
 nnoremap D <C-d>
@@ -183,6 +203,13 @@ map <leader>? <Plug>(incsearch-fuzzy-?)
 " Split
 nnoremap <Leader>\| <C-w>v
 nnoremap <Leader>- <C-w>s
+
+nnoremap <leader>t :sp<CR> :term<CR> :resize 20N<CR>
+
+nnoremap <silent> ca <cmd>lua vim.lsp.buf.code_action()<CR>
+
+nnoremap <leader>sp viw:lua require('spectre').open_file_search()<cr>
+
 
 " --------------------------------------------------------------------------------------------------------------------
 " --                                                     Misc                                                       --
@@ -240,48 +267,37 @@ let g:minimap_auto_start = 1
 let g:gitgutter_enabled = 1
 let g:gitgutter_highlight_linenrs = 1
 
+let g:ale_fixers = {
+\   'javascript': ['prettier'],
+\   'typescript': ['prettier'],
+\   'typescriptreact': ['prettier'],
+\   'css': ['prettier'],
+\}
+
+let g:ale_linters_explicit = 1
+
 " --------------------------------------------------------------------------------------------------------------------
 " --                                            LSP settings for NeoVim                                             --
 " --------------------------------------------------------------------------------------------------------------------
 "
-"if has('nvim')
-"
-"set completeopt=menu,menuone,noselect
-"lua << EOF
-"     require('config/cmp')       -- CMP Autocompletion settings
-"     require('config/keybinds')  -- General LSP keybinds
-"EOF
-"
-"" LSP config for servers installed with nvim-lsp-installer
-"lua << EOF
-"    local lsp_installer = require("nvim-lsp-installer")
-"    lsp_installer.on_server_ready(function(server)
-"        local opts = {
-"            capabilities = require("cmp_nvim_lsp").update_capabilities(vim.lsp.protocol.make_client_capabilities())
-"        }
-"        server:setup(opts)
-"    end)
-"EOF
+if has('nvim')
 
-" VHDL Language server with VHDL-Tool
-"lua << EOF
-"    local lspconfig = require'lspconfig'
-"    local configs = require'lspconfig/configs'
-"    local util = require 'lspconfig/util'
-"    local capabilities = require('cmp_nvim_lsp').update_capabilities(vim.lsp.protocol.make_client_capabilities())
-"    -- Check if it's already defined for when reloading this file.
-"    if not lspconfig.vhdl_tool then
-"      configs.vhdl_tool = {
-"        default_config = {
-"          cmd = {'vhdl-tool', 'lsp'};
-"          filetypes = {'vhdl'};
-"          root_dir = util.root_pattern('vhdltool-config.yaml', '.git');
-"          settings = {};
-"        };
-"      }
-"    end
-"    lspconfig.vhdl_tool.setup{ capabilities = capabilities }
-"EOF
+set completeopt=menu,menuone,noselect
+lua << EOF
+     require('config/cmp')       -- CMP Autocompletion settings
+     require('config/keybinds')  -- General LSP keybinds
+    require("todo-comments").setup {}
+EOF
 
+" LSP config for servers installed with nvim-lsp-installer
+lua << EOF
+    local lsp_installer = require("nvim-lsp-installer")
+    lsp_installer.on_server_ready(function(server)
+        local opts = {
+            capabilities = require("cmp_nvim_lsp").update_capabilities(vim.lsp.protocol.make_client_capabilities())
+        }
+        server:setup(opts)
+    end)
+EOF
 
-"endif "if has('nvim')
+endif "if has('nvim')
