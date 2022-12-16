@@ -7,10 +7,16 @@
 	st = status --short --branch
 	dp = diff --word-diff --unified=10
 	lg = log --pretty='%Cred%h%Creset | %C(yellow)%d%Creset %s %Cgreen(%cr)%Creset %C(cyan)[%an]%Creset'
-    lmas = lg master..
-    lmai = lg main..
+    	lmas = lg master..
+    	lmai = lg main..
 	ch = checkout
 	amend = commit --amend --no-edit
 	done = push origin HEAD
+    fix = commit --fixup
 [diff]
 	algorithm = histogram
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
