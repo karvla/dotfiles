@@ -58,6 +58,9 @@ call plug#begin('~/.vim/plugged')
     " LaTeX synctex synchronization through DBus
     Plug 'peterbjorgensen/sved'
 
+    " undotree
+    Plug 'mbbill/undotree'
+
     " Tmux vim navigation
     Plug 'christoomey/vim-tmux-navigator'
 
