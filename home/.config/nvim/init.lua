@@ -90,21 +90,22 @@ require('packer').startup(function(use)
   })
 
   use({
-  "https://git.sr.ht/~whynothugo/lsp_lines.nvim",
-  config = function()
-    require("lsp_lines").setup()
-  end,
-})
+    "https://git.sr.ht/~whynothugo/lsp_lines.nvim",
+    config = function()
+      require("lsp_lines").setup()
+    end,
+  })
 
   use {
     'akinsho/flutter-tools.nvim',
     requires = {
-        'nvim-lua/plenary.nvim',
-        'stevearc/dressing.nvim', -- optional for vim.ui.select
+      'nvim-lua/plenary.nvim',
+      'stevearc/dressing.nvim', -- optional for vim.ui.select
     },
-}
+  }
 
-
+  use { 'David-Kunz/gen.nvim' }
+  use { 'kamykn/spelunker.vim' }
   -- Add custom plugins to packer from ~/.config/nvim/lua/custom/plugins.lua
   local has_plugins, plugins = pcall(require, 'custom.plugins')
   if has_plugins then
@@ -135,6 +136,31 @@ vim.api.nvim_create_autocmd('BufWritePost', {
   command = 'source <afile> | PackerCompile',
   group = packer_group,
   pattern = vim.fn.expand '$MYVIMRC',
+})
+
+-- First, create a group for the autocmds to organize them and avoid duplication
+local spelunker_group = vim.api.nvim_create_augroup('Spelunker', { clear = true })
+
+-- Setting for g:spelunker_check_type = 1:
+-- Trigger the spelunker#check() function when entering a buffer or after saving
+-- for specific file types
+vim.api.nvim_create_autocmd({ 'BufWinEnter', 'BufWritePost' }, {
+  pattern = { '*.vim', '*.js', '*.jsx', '*.json', '*.md', 'gitcommit' },
+  callback = function()
+    vim.fn['spelunker#check']()
+  end,
+  group = spelunker_group,
+})
+
+-- Setting for g:spelunker_check_type = 2:
+-- Trigger the spelunker#check_displayed_words() function when the cursor is held
+-- in place for specific file types
+vim.api.nvim_create_autocmd('CursorHold', {
+  pattern = { '*.vim', '*.js', '*.jsx', '*.json', '*.md' },
+  callback = function()
+    vim.fn['spelunker#check_displayed_words']()
+  end,
+  group = spelunker_group,
 })
 
 -- [[ Setting options ]]
@@ -247,6 +273,34 @@ require('telescope').setup {
   },
 }
 
+require('gen').setup({
+      opts = {
+        model = "codellama:code", -- The default model to use.
+        display_mode = "float", -- The display mode. Can be "float" or "split".
+        show_prompt = false, -- Shows the Prompt submitted to Ollama.
+        show_model = false, -- Displays which model you are using at the beginning of your chat session.
+        no_auto_close = false, -- Never closes the window automatically.
+        init = function(options) pcall(io.popen, "ollama serve > /dev/null 2>&1 &") end,
+        -- Function to initialize Ollama
+        command = "curl --silent --no-buffer -X POST http://localhost:11434/api/generate -d $body",
+        -- The command for the Ollama service. You can use placeholders $prompt, $model and $body (shellescaped).
+        -- This can also be a lua function returning a command string, with options as the input parameter.
+        -- The executed command must return a JSON object with { response, context }
+        -- (context property is optional).
+        list_models = '<omitted lua function>', -- Retrieves a list of model names
+        debug = false -- Prints errors and the command which is run.
+    }
+})
+require('gen').prompts['Elaborate_Text'] = {
+  prompt = "Elaborate the following text:\n$text",
+  replace = true
+}
+require('gen').prompts['Fix_Code'] = {
+  prompt = "Fix the following code. Only ouput the result in format ```$filetype\n...\n```:\n```$filetype\n$text\n```",
+  replace = true,
+  extract = "```$filetype\n(.-)```"
+}
+
 -- Enable telescope fzf native, if installed
 pcall(require('telescope').load_extension, 'fzf')
 
@@ -267,6 +321,8 @@ vim.keymap.set('n', '<leader>sh', require('telescope.builtin').help_tags, { desc
 vim.keymap.set('n', '<leader>F', require('telescope.builtin').live_grep, { desc = 'Seach words' })
 vim.keymap.set('n', '<leader>sg', require('telescope.builtin').live_grep, { desc = '[S]earch by [G]rep' })
 vim.keymap.set('n', '<leader>sd', require('telescope.builtin').diagnostics, { desc = '[S]earch [D]iagnostics' })
+
+vim.keymap.set('n', '<leader>S', ':set spell!<CR>', {noremap = true, silent = true})
 
 -- Colorscheme
 require("gruvbox").setup({
@@ -292,7 +348,7 @@ vim.cmd("colorscheme gruvbox")
 -- See `:help nvim-treesitter`
 require('nvim-treesitter.configs').setup {
   -- Add languages to be installed here that you want installed for treesitter
-  ensure_installed = { 'c', 'cpp', 'go', 'lua', 'python', 'rust', 'typescript', 'help' },
+  ensure_installed = { 'c', 'cpp', 'go', 'lua', 'python', 'rust', 'typescript'},
 
   highlight = { enable = true },
   indent = { enable = true, disable = { 'python' } },
