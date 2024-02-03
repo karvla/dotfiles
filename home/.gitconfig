@@ -6,7 +6,7 @@
 [alias]
 	st = status --short --branch
 	dp = diff --word-diff --unified=10
-	lg = log --pretty='%Cred%h%Creset | %C(yellow)%d%Creset %s %Cgreen(%cr)%Creset %C(cyan)[%an]%Creset'
+	lg = log --pretty='%Cred%h%Creset | %s %Cgreen(%cr)%Creset %C(cyan)[%an]%Creset %C(yellow)%d%Creset '
     	lmas = lg master..
     	lmai = lg main..
 	ch = checkout
@@ -22,3 +22,7 @@
 	process = git-lfs filter-process
 [rebase]
 	instructionFormat = (%an <%ae>) %s
+[commit]
+	verbose = true
+[core]
+	editor = nvim
