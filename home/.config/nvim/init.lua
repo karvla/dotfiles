@@ -42,6 +42,7 @@ require('lazy').setup({
     },
   },
 
+  'christoomey/vim-tmux-navigator',
   -- Highlight, edit, and navigate code
   {'nvim-treesitter/nvim-treesitter', run = 'require("nvim-treesitter.install").update { with_sync = true }'},
   {'nvim-treesitter/nvim-treesitter-textobjects', after = 'nvim-treesitter'},
@@ -52,6 +53,8 @@ require('lazy').setup({
     branch = '0.1.x',
     dependencies = {
       'nvim-lua/plenary.nvim',
+      'stevearc/dressing.nvim', -- optional for vim.ui.select
+
       -- Fuzzy Finder Algorithm which requires local dependencies to be built.
       -- Only load if `make` is available. Make sure you have the system
       -- requirements installed.
@@ -513,6 +516,19 @@ vim.diagnostic.config({
   virtual_text = false,
 })
 
+-- [[ Configure Telescope ]]
+-- See `:help telescope` and `:help telescope.setup()`
+require('telescope').setup {
+  defaults = {
+    layout_strategy = 'vertical',
+    mappings = {
+      i = {
+        ['<C-u>'] = false,
+        ['<C-d>'] = false,
+      },
+    },
+  },
+}
 
 -- [[ Configure nvim-cmp ]]
 -- See `:help cmp`
