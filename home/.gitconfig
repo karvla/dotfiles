@@ -12,7 +12,8 @@
 	ch = checkout
 	amend = commit --amend --no-edit
 	done = push origin HEAD
-    fix = commit --fixup
+	fdone = push origin HEAD --force-with-lease
+	fix = commit --fixup
 [diff]
 	algorithm = histogram
 [filter "lfs"]

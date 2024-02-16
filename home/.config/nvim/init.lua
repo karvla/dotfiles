@@ -12,6 +12,12 @@ require('lazy').setup({
     'williamboman/mason-lspconfig.nvim',
     'folke/neodev.nvim',
   }},
+    {'karvla/term-toggle.nvim', config = function()
+    require('term-toggle').setup({
+      toggle_terminal = '<C-t>' -- Customize keybinding
+    })
+  end},
+
 
   {
     -- Autocompletion
@@ -258,6 +264,9 @@ vim.keymap.set('n', 'j', "v:count == 0 ? 'gj' : 'j'", { expr = true, silent = tr
 vim.keymap.set("n", "<leader>u", vim.cmd.UndotreeToggle)
 vim.keymap.set("n", "-", require("oil").open, { desc = "Open parent directory" })
 
+require('term-toggle').setup({
+  toggle_terminal = '<C-t>'
+})
 -- [[ Highlight on yank ]]
 -- See `:help vim.highlight.on_yank()`
 local highlight_group = vim.api.nvim_create_augroup('YankHighlight', { clear = true })
