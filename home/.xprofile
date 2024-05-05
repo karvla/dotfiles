@@ -1,6 +1,0 @@
-#!/bin/bash
-
-# Keyboard setup
-setxkbmap -layout 'us(intl)'
-xmodmap ~/.config/xmodmap/erb.xmodmap
-
