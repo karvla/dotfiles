@@ -1,0 +1,30 @@
+[user]
+	name = Arvid Larsson
+	email = arvid94@gmail.com
+[http]
+	version = HTTP/1.1
+[alias]
+	st = status --short --branch
+	dp = diff --word-diff --unified=10
+	lg = log --pretty='%Cred%h%Creset | %s %Cgreen(%cr)%Creset %C(cyan)[%an]%Creset %C(yellow)%d%Creset '
+    	lmas = lg master..
+    	lmai = lg main..
+	ch = checkout
+	amend = commit --amend --no-edit
+	done = push origin HEAD
+	fdone = push origin HEAD --force-with-lease
+	fix = commit --fixup
+	stash = stash --all
+[diff]
+	algorithm = histogram
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+[rebase]
+	instructionFormat = (%an <%ae>) %s
+[commit]
+	verbose = true
+[core]
+	editor = nvim
