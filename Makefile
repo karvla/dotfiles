@@ -39,9 +39,6 @@ nvim:
 keyboard-layout:
 	keyboard_layouts/set_layout.sh
 
-test:
-	source env/env.sh && ./test_configs.sh
-
 fonts:
 	install_fonts.sh
 
