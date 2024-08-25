@@ -1,4 +1,4 @@
-all: config zsh tmux
+all: config zsh tmux, fonts
 	
 
 config:
@@ -41,4 +41,7 @@ keyboard-layout:
 
 test:
 	source env/env.sh && ./test_configs.sh
+
+fonts:
+	install_fonts.sh
 
