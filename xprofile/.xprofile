@@ -2,5 +2,6 @@
 
 # Keyboard setup
 setxkbmap -layout 'us(intl)'
+xset r rate 200  20
 xmodmap ~/.config/xmodmap/erb.xmodmap
 
