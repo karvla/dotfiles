@@ -143,5 +143,10 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 export PATH="$/home/karvla/.local/bin:$PATH"
 export PATH="$/home/karvla/go/bin:$PATH"
 
+export PATH=$HOME//usr/lib/erlang/erts-14.2.5.3/bin:$PATH
+export PATH=$HOME//usr/bin:$PATH
+
 # Created by `pipx` on 2024-06-11 18:50:22
 export PATH="$PATH:/home/karvla/.local/bin"
+. "/home/karvla/.asdf/asdf.sh"
+eval "$(direnv hook /bin/zsh)"
