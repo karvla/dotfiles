@@ -1,8 +1,8 @@
 window:
-  decorations: none
+  decorations: Full
 
 shell:
-  program: "/bin/tmux"
+  program: "tmux"
 
 font:
   normal:

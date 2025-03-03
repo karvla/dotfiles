@@ -7,7 +7,7 @@ config:
 
 zsh: ohmyzsh powerlevel10k 
 
-tmux: tmux-tmp tmux-auto-suggestions tmux-fzf-zsh-plugin
+tmux: tmux-tmp tmux-plugins tmux-auto-suggestions tmux-fzf-zsh-plugin
 
 clean:
 	stow --verbose --target=$$HOME --delete */
@@ -21,6 +21,7 @@ ohmyzsh:
 
 powerlevel10k:
 	git clone --depth=1 https://github.com/romkatv/powerlevel10k.git $${ZSH_CUSTOM:-$$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+
 
 tmux-tmp:
 	git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm

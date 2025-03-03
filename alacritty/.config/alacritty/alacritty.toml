@@ -1,0 +1,24 @@
+[[keyboard.bindings]]
+chars = "\u001B[94;5u"
+key = "Key6"
+mods = "Control"
+
+[terminal]
+
+[bell]
+duration = 0
+
+[font]
+size = 11.0
+
+[font.normal]
+family = "JetBrains Mono"
+style = "Regular"
+
+[terminal.shell]
+program = "tmux"
+
+[window]
+decorations = "Full"
+
+[keyboard]
